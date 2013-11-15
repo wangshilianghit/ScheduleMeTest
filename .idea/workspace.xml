@@ -293,7 +293,11 @@
       <created>1384556069067</created>
       <updated>1384556069067</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="created custom.css for additional css/styling to protect in case we change themes (current bootstrap_space)">
+      <created>1384556089219</created>
+      <updated>1384556089219</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
