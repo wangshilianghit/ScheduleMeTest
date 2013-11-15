@@ -1999,6 +1999,10 @@ output {
   vertical-align: middle;
 }
 
+.form-width  {
+    width:50%;
+}
+
 .form-control {
   display: block;
   width: 100%;
