@@ -20,13 +20,14 @@ window.BusinessSignupView = Backbone.View.extend({
         return this;
     },
 
+    customerSignupClicked: function (){
+        app.customerSignupView.render();
+    },
+
     employeeSignupClicked: function (){
         app.employeeSignupView.render();
     },
 
-    signupBusinessClicked: function (){
-        app.businessSignupView.render();
-    },
 
     signupBusinessClicked:function (event) {
         event.preventDefault(); // Don't let this button submit the form
