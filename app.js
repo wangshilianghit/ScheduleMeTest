@@ -147,7 +147,7 @@ app.post('/signup_customer', function (req, res) {
             res.send(500, {error: "DB error"});
         }
         else {
-            res.redirect('/login');
+            res.redirect('/#/login');
         }
     });
 });
@@ -164,7 +164,7 @@ app.post('/signup_employee', function (req, res) {
     accessCode = requestASJSON.accessCode;
 
 
-    var newUser = new User({email: email, password: password, firstName: firstName, lastName: lastName, accessCode: accessCode});
+    var newUser = new User({email: email, password: password, firstName: firstName, lastName: lastName, accessCode: accessCode, typeAccount: "employee"});
 
     newUser.save(function (err) {
         if (err) {
@@ -172,7 +172,7 @@ app.post('/signup_employee', function (req, res) {
             res.send(500, {error: "DB error"});
         }
         else {
-            res.redirect('/login_employee');
+            res.redirect('/#/login');
         }
     });
 
@@ -190,7 +190,7 @@ app.post('/signup_business', function (req, res) {
     lastName = requestASJSON.lastName;
 
 
-    var newUser = new User({business: business, email: email, password: password, firstName: firstName, lastName: lastName});
+    var newUser = new User({business: business, email: email, password: password, firstName: firstName, lastName: lastName, typeAccount: "business"});
 
     newUser.save(function (err) {
         if (err) {
@@ -198,7 +198,7 @@ app.post('/signup_business', function (req, res) {
             res.send(500, {error: "DB error"});
         }
         else {
-            res.redirect('/login_business');
+            res.redirect('/#/login');
         }
     });
 });
