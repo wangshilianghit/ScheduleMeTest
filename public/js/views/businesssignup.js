@@ -34,6 +34,7 @@ window.BusinessSignupView = Backbone.View.extend({
         var url = '../signup_business';
         console.log('signing up a business ');
         var formValues = {
+            business: $('#inputBusinessName').val(),
             firstName: $('#inputFirstName').val(),
             lastName: $('#inputLastName').val(),
             email: $('#inputEmail').val(),
