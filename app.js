@@ -155,34 +155,25 @@ app.post('/signup_customer', function (req, res) {
 // signup route for employee, adds an employee to the database
 app.post('/signup_employee', function (req, res) {
 
-    email = req.param('emailAddressForSignup_employee'); //refactor this
-    password = req.param('passwordForSignup_employee');
-    firstName = req.param('firstNameForSignup_employee');
-    lastName = req.param('lastNameForSignup_employee');
-    accessCodeForEmployee = req.param('accessCodeForSignup_employee');
+    requestASJSON = JSON.parse(JSON.stringify(req.body));
+    console.log(requestASJSON);
+    email = requestASJSON.email;
+    password = requestASJSON.password;
+    firstName = requestASJSON.firstName;
+    lastName = requestASJSON.lastName;
+    accessCode = requestASJSON.accessCode;
 
 
-    User.findOne({accessCodeForEmployee:accessCodeForEmployee}, function(err,user){
-        if(err){
+    var newUser = new User({email: email, password: password, firstName: firstName, lastName: lastName, accessCode: accessCode});
+
+    newUser.save(function (err) {
+        if (err) {
+            console.log(err);
             res.send(500, {error: "DB error"});
         }
-        else if(user){
-            var newUser = new User({email: email, password: password, firstName: firstName, lastName: lastName, business: user.business, typeAccount: "employee"});
-
-            newUser.save(function (err) {
-                if (err) {
-                    res.send(500, {error: "DB error"});
-                }
-                else {
-
-                    res.redirect('/login_employee');
-                }
-            });
-        }
         else {
-            res.send({message:"Not a valid access code"});
+            res.redirect('/login_employee');
         }
-
     });
 
 });
@@ -190,20 +181,23 @@ app.post('/signup_employee', function (req, res) {
 // signup route for a business, adds a business to the database
 app.post('/signup_business', function (req, res) {
 
-    email = req.param('emailAddressForSignup_business'); //refactor this
-    password = req.param('passwordForSignup_business');
-    firstName = req.param('firstNameForSignup_business');
-    lastName = req.param('lastNameForSignup_business');
-    businessName = req.param('businessNameForSignup_business');
+    requestASJSON = JSON.parse(JSON.stringify(req.body));
+    console.log(requestASJSON);
+    business = requestASJSON.business;
+    email = requestASJSON.email;
+    password = requestASJSON.password;
+    firstName = requestASJSON.firstName;
+    lastName = requestASJSON.lastName;
 
-    var newUser = new User({email: email, password: password, firstName: firstName, lastName: lastName, business: businessName, typeAccount: "business"});
+
+    var newUser = new User({business: business, email: email, password: password, firstName: firstName, lastName: lastName, accessCode: accessCode});
 
     newUser.save(function (err) {
         if (err) {
+            console.log(err);
             res.send(500, {error: "DB error"});
         }
         else {
-
             res.redirect('/login_business');
         }
     });
