@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23ad33ba-1c43-47b5-894c-268443c44370" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/views/businessgeneratetokens.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tpl/BusinessHomeView.html" afterPath="$PROJECT_DIR$/public/tpl/BusinessHomeView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/views/businesshome.js" afterPath="$PROJECT_DIR$/public/js/views/businesshome.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="project.iws" />
@@ -25,10 +31,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/styles/custom.css">
+      <file leaf-file-name="CustomerHomeView.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/tpl/CustomerHomeView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.124390244" vertical-offset="0" max-vertical-offset="410">
+            <state line="13" column="24" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="874">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BusinessSignupView.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/tpl/BusinessSignupView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="33" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="608">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerSignupView.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/tpl/CustomerSignupView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.6963351" vertical-offset="0" max-vertical-offset="608">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BusinessHomeView.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/tpl/BusinessHomeView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="10" selection-start="2180" selection-end="2180" vertical-scroll-proportion="0.0" vertical-offset="988" max-vertical-offset="1159">
               <folding />
             </state>
           </provider>
@@ -58,23 +91,22 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/public/tpl/GenerateTokens.html" />
         <option value="$PROJECT_DIR$/public/tpl/GenerateTokensView.html" />
+        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/styles/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/public/styles/bootstrap_space.css" />
         <option value="$PROJECT_DIR$/public/styles/custom.min.css" />
         <option value="$PROJECT_DIR$/public/tpl/CustomerHomeView.html" />
         <option value="$PROJECT_DIR$/public/tpl/EmployeeSignupView.html" />
         <option value="$PROJECT_DIR$/public/tpl/BusinessSignupView.html" />
         <option value="$PROJECT_DIR$/public/tpl/CustomerSignupView.html" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/styles/bootstrap_space.css" />
-        <option value="$PROJECT_DIR$/public/styles/custom.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -102,6 +134,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -110,106 +143,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tpl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="settings.nodejs" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="settings.nodejs" />
     <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Node.js.run">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -218,6 +168,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -285,40 +243,28 @@
       <created>1384499886183</created>
       <updated>1384499886183</updated>
     </task>
-    <task id="LOCAL-00006" summary="Added a new CSS element called form-width and added it to all of the sign up forms so it has a smaller width.&#10;">
-      <created>1384555694033</created>
-      <updated>1384555694033</updated>
-    </task>
-    <task id="LOCAL-00007" summary="created custom.css for additional css/styling to protect in case we change themes (current bootstrap_space)">
-      <created>1384556069067</created>
-      <updated>1384556069067</updated>
-    </task>
-    <task id="LOCAL-00008" summary="created custom.css for additional css/styling to protect in case we change themes (current bootstrap_space)">
-      <created>1384556089219</created>
-      <updated>1384556089219</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21961933" sideWeight="0.7159278" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21952507" sideWeight="0.7165533" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28407225" sideWeight="0.50073206" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28407225" sideWeight="0.49926794" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2834467" sideWeight="0.50073206" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28335172" sideWeight="0.49926794" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.49973616" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -334,26 +280,25 @@
     <MESSAGE value="Change businesssingup.js" />
     <MESSAGE value="change app.js" />
     <MESSAGE value="Change businesssignup.js&#10;" />
-    <MESSAGE value="Added a new CSS element called form-width and added it to all of the sign up forms so it has a smaller width.&#10;" />
-    <MESSAGE value="created custom.css for additional css/styling to protect in case we change themes (current bootstrap_space)" />
-    <option name="LAST_COMMIT_MESSAGE" value="created custom.css for additional css/styling to protect in case we change themes (current bootstrap_space)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change businesssignup.js&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/tpl/GenerateTokensView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="30" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.796875" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/styles/bootstrap3.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="397">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="397" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/styles/bootstrap4.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="41187" selection-start="41183" selection-end="41187" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
+        <state line="0" column="41187" selection-start="41183" selection-end="41187" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/styles/bootstrap1.min.css">
@@ -372,23 +317,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/tpl/LoginView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="27" selection-start="779" selection-end="779" vertical-scroll-proportion="0.8523677" vertical-offset="0" max-vertical-offset="1071">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/styles/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23262" selection-start="23262" selection-end="23262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="351">
-          <folding />
-        </state>
+        <state line="0" column="23262" selection-start="23262" selection-end="23262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="351" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="389">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="389" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/tpl/HomeView.html">
@@ -396,6 +342,11 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.13746631" vertical-offset="51" max-vertical-offset="1309">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/bootstrap_space.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2004" column="0" selection-start="30231" selection-end="30231" vertical-scroll-proportion="0.4516129" vertical-offset="33900" max-vertical-offset="130747" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/tpl/EmployeeSignupView.html">
@@ -407,49 +358,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/tpl/CustomerHomeView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="627" selection-end="627" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="782">
+        <state line="13" column="24" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="874">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/tpl/BusinessHomeView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="38" selection-start="2628" selection-end="2628" vertical-scroll-proportion="1.2109375" vertical-offset="419" max-vertical-offset="1241">
+        <state line="52" column="10" selection-start="2180" selection-end="2180" vertical-scroll-proportion="0.0" vertical-offset="988" max-vertical-offset="1159">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/tpl/BusinessSignupView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="33" selection-start="1193" selection-end="1193" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="544">
+        <state line="15" column="33" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="608">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/tpl/CustomerSignupView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="44" selection-start="454" selection-end="479" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="7" selection-start="829" selection-end="829" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="1071">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/styles/bootstrap_space.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2000" column="0" selection-start="30198" selection-end="30198" vertical-scroll-proportion="0.33753148" vertical-offset="33866" max-vertical-offset="130679">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/styles/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.124390244" vertical-offset="0" max-vertical-offset="410">
+        <state line="21" column="0" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.6963351" vertical-offset="0" max-vertical-offset="608">
           <folding />
         </state>
       </provider>
