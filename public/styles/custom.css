@@ -12,10 +12,14 @@
 .page-canvas .my-input {
     width: 600px;
 }
+
+.page-canvas .my-sign-in-input {
+    width: 250px;
+}
+
 .page-canvas h2 {
     padding: 40px 0 20px 0;
 }
-
 
 .page-canvas .my-btn {
     margin: 20px 0;
