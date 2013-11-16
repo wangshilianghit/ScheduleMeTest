@@ -138,7 +138,7 @@ app.post('/signup_customer', function (req, res) {
     firstName = requestASJSON.firstName;
     lastName = requestASJSON.lastName;
 
-
+    <!-- Should this have typeAccount: "customer"? -->
     var newUser = new User({email: email, password: password, firstName: firstName, lastName: lastName});
 
     newUser.save(function (err) {
