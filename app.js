@@ -204,11 +204,14 @@ app.post('/signup_business', function (req, res) {
 });
 
 // Generate token for employee
-app.post('/generateToken', function (req, res) {
+app.post('/generateTokens', function (req, res) {
+    requestASJSON = JSON.parse(JSON.stringify(req.body));
+    console.log(requestASJSON);
+    business = requestASJSON.business;
 
     var randomToken = Math.random().toString(36).substr(2, 5);
     console.log('token: ' + randomToken);
-    User.findOne({email:req.user.email}, function (err, user) {
+    User.findOne({business: business }, function (err, user) {
 
         if(err){
             res.send({error: "DB error"});
@@ -216,7 +219,7 @@ app.post('/generateToken', function (req, res) {
         else if(user){
             user.accessCodeForEmployee = randomToken;
             user.save();
-            res.send({code: randomToken});
+            res.send(JSON.stringify({code: randomToken}));;
         }
         else{
             res.send({message: "INVALID TOKEN"});

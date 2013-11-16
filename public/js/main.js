@@ -24,7 +24,8 @@ window.Router = Backbone.Router.extend({
         "customerHome" : "customerHome",
         "employeeHome" : "employeeHome",
         "businessHome" : "businessHome",
-        "login": "login"
+        "login": "login",
+        "businessGenerateTokens" : "businessGenerateTokens"
 
     },
 
@@ -143,11 +144,19 @@ window.Router = Backbone.Router.extend({
         $("#content").html(this.loginView.el);
         // this.headerView.select('home-menu');
         // this.footerView.select('home-menu');
+    },
+
+    businessGenerateTokens: function() {
+        // Since the Home view never changes, we instantiate it and render it only once
+        if (!this.businessGenerateTokensView) {
+            this.businessGenerateTokensView = new BusinessGenerateTokensView();
+            this.businessGenerateTokensView.render();
+        }
+        else {
+            this.businessGenerateTokens.delegateEvents(); // delegate events when the view is recycled
+        }
+        $("#content").html(this.businessGenerateTokensView.el);
     }
-
-
-
-
 
 
 });

@@ -1,0 +1,22 @@
+.my-container {
+    border-radius: 6px;
+    border: 1px solid rgba(0,0,0,.1);
+    width: 1120px;
+}
+
+.page-canvas {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.page-canvas .my-input {
+    width: 600px;
+}
+.page-canvas h2 {
+    padding: 40px 0 20px 0;
+}
+
+
+.page-canvas .my-btn {
+    margin: 20px 0;
+}
