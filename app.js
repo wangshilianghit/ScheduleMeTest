@@ -36,7 +36,7 @@ if ('production' == app.get('env')) {
 }
 
 // Set the server to use the following parameters
-app.set('port', process.env.PORT || 8076);
+app.set('port', process.env.PORT || 80);
 app.set('views', __dirname + '/views');
 
 
@@ -146,9 +146,7 @@ app.post('/signup_customer', function (req, res) {
             console.log(err);
             res.send(500, {error: "DB error"});
         }
-        else {
-            res.redirect('/#/login');
-        }
+
     });
 });
 
@@ -171,9 +169,7 @@ app.post('/signup_employee', function (req, res) {
             console.log(err);
             res.send(500, {error: "DB error"});
         }
-        else {
-            res.redirect('/#/login');
-        }
+
     });
 
 });
@@ -197,9 +193,7 @@ app.post('/signup_business', function (req, res) {
             console.log(err);
             res.send(500, {error: "DB error"});
         }
-        else {
-            res.redirect('/#/login');
-        }
+
     });
 });
 

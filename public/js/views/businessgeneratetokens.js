@@ -1,11 +1,11 @@
-window.GeneratetokensView = Backbone.View.extend({
+window.BusinessGenerateTokensView = Backbone.View.extend({
 
     initialize: function () {
 
     },
 
     events:{
-        "click businessGenerateTokens" : generateTokensClicked
+        "click businessGenerateTokens" : "generateTokensClicked"
 
     },
 

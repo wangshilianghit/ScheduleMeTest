@@ -41,7 +41,8 @@ window.LoginView = Backbone.View.extend({
                     $('.alert-error').text(data.error.text).show();
                 }
                 else { // If not, send them back to the home page
-                    Backbone.history.navigate("/#"+data.typeAccount+"Home");
+
+                        app.navigate('businessHome', {trigger: true});
                 }
             }
         });

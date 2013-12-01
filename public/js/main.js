@@ -25,7 +25,10 @@ window.Router = Backbone.Router.extend({
         "employeeHome" : "employeeHome",
         "businessHome" : "businessHome",
         "login": "login",
-        "businessGenerateTokens" : "businessGenerateTokens"
+        "businessGenerateTokens" : "businessGenerateTokens" /*
+        "businessEmployeeSettings" : "businessEmployeeSettings",
+        "businessServiceSettings" : "businessServiceSettings",
+        "businessViewAnalytics" : "businessViewAnalytics"*/
 
     },
 
@@ -112,7 +115,8 @@ window.Router = Backbone.Router.extend({
             this.businessHomeView.render();
         }
         else {
-            this.businessHomeView.delegateEvents(); // delegate events when the view is recycled
+            this.businessHomeView.delegateEvents();
+             console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");// delegate events when the view is recycled
         }
         $("#content").html(this.businessHomeView.el);
         // this.headerView.select('home-menu');
@@ -155,13 +159,13 @@ window.Router = Backbone.Router.extend({
         else {
             this.businessGenerateTokens.delegateEvents(); // delegate events when the view is recycled
         }
-        $("#content").html(this.businessGenerateTokensView.el);
+        $("#subcontent").html(this.businessGenerateTokensView.el);
     }
 
 
 });
 
-templateLoader.load(["HomeView",  "HeaderView", "FooterView", "CustomerSignupView","BusinessSignupView","EmployeeSignupView", "CustomerHomeView","BusinessHomeView","EmployeeHomeView", "LoginView"],
+templateLoader.load(["HomeView",  "HeaderView", "FooterView", "CustomerSignupView","BusinessSignupView","EmployeeSignupView", "CustomerHomeView","BusinessHomeView","EmployeeHomeView", "LoginView","BusinessGenerateTokensView"],
     function () {
         app = new Router();
         Backbone.history.start();
