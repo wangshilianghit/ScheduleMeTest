@@ -74,7 +74,7 @@
       <file leaf-file-name="BusinessEmployeeSettingsView.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/tpl/BusinessEmployeeSettingsView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="15" selection-start="108" selection-end="108" vertical-scroll-proportion="0.046008117" vertical-offset="0" max-vertical-offset="739">
+            <state line="2" column="28" selection-start="121" selection-end="121" vertical-scroll-proportion="0.046008117" vertical-offset="0" max-vertical-offset="739">
               <folding />
             </state>
           </provider>
@@ -500,7 +500,11 @@
       <created>1385936205340</created>
       <updated>1385936205340</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Put in icons for employee settings view in businessHOME">
+      <created>1385936769532</created>
+      <updated>1385936769532</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -541,7 +545,8 @@
     <MESSAGE value="loginView page's layout completed" />
     <MESSAGE value="updated business home gui. Now contains calendar view." />
     <MESSAGE value="fixed redirect to login screen upon signing up a business." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed redirect to login screen upon signing up a business." />
+    <MESSAGE value="Put in icons for employee settings view in businessHOME" />
+    <option name="LAST_COMMIT_MESSAGE" value="Put in icons for employee settings view in businessHOME" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -654,7 +659,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/tpl/BusinessEmployeeSettingsView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="15" selection-start="108" selection-end="108" vertical-scroll-proportion="0.046008117" vertical-offset="0" max-vertical-offset="739">
+        <state line="2" column="28" selection-start="121" selection-end="121" vertical-scroll-proportion="0.046008117" vertical-offset="0" max-vertical-offset="739">
           <folding />
         </state>
       </provider>
