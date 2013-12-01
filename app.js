@@ -193,6 +193,9 @@ app.post('/signup_business', function (req, res) {
             console.log(err);
             res.send(500, {error: "DB error"});
         }
+        else{
+            res.send({message:'success'});
+        }
 
     });
 });
