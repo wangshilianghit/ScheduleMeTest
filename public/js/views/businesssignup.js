@@ -48,7 +48,7 @@ window.BusinessSignupView = Backbone.View.extend({
             dataType:"json",
             data: formValues,
             success:function (data) {
-                
+
                 console.log(["Business Signup request details: ", data]);
 
                 if(data.error) { // If there is an error, show the error messages
