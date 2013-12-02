@@ -13,7 +13,6 @@ var UserSchema = new Schema({
     lastName: { type: String, default: '' },//last name of the account holder
     business: { type: String, default:''},//business associated with the account
     email: { type: String, default: '' },
-    username: { type: String, default: '' },
     typeAccount: { type: String, default: 'customer' }, //employee,owner,customer
     hashed_password: { type: String, default: '' },
     salt: { type: String, default: '' },

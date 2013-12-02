@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23ad33ba-1c43-47b5-894c-268443c44370" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/views/businessemployeesettings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tpl/BusinessEmployeeSettingsView.html" afterPath="$PROJECT_DIR$/public/tpl/BusinessEmployeeSettingsView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/views/businesshome.js" afterPath="$PROJECT_DIR$/public/js/views/businesshome.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/models/businessdata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/employee.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/models/employeedatum.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/business.js" afterPath="$PROJECT_DIR$/models/business.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/project.iml" afterPath="$PROJECT_DIR$/.idea/project.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/user.js" afterPath="$PROJECT_DIR$/models/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="project.iws" />
@@ -30,65 +34,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="6" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.5751015" vertical-offset="153" max-vertical-offset="1105">
+            <state line="31" column="21" selection-start="1095" selection-end="1095" vertical-scroll-proportion="-7.5" vertical-offset="332" max-vertical-offset="1071">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap_space.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/styles/bootstrap_space.css">
+      <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="17" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="130679">
+            <state line="21" column="44" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2516">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/views/footer.js">
+      <file leaf-file-name="business.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/business.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="18" column="0" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/styles/custom.css">
+      <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/models/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+            <state line="9" column="21" selection-start="0" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BusinessGenerateTokensView.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/tpl/BusinessGenerateTokensView.html">
+      <file leaf-file-name="employeedatum.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/models/employeedatum.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="87" selection-end="139" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="646">
+            <state line="14" column="0" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FooterView.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/tpl/FooterView.html">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="391">
+            <state line="240" column="0" selection-start="6897" selection-end="6897" vertical-scroll-proportion="0.46666667" vertical-offset="3723" max-vertical-offset="4658">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="businessemployeesettings.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/views/businessemployeesettings.js">
+      <file leaf-file-name="businessdata.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/models/businessdata.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="20" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+            <state line="15" column="6" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="employee.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/employee.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="5" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+              <folding>
+                <marker date="1385942477855" expanded="true" signature="165:611" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,7 +111,7 @@
       <file leaf-file-name="BusinessEmployeeSettingsView.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/tpl/BusinessEmployeeSettingsView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="6" selection-start="311" selection-end="311" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
+            <state line="6" column="2" selection-start="201" selection-end="201" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
@@ -106,15 +121,6 @@
         <entry file="file://$PROJECT_DIR$/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="146" column="9" selection-start="5807" selection-end="5807" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="3230">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BusinessHomeView.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/tpl/BusinessHomeView.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="12" selection-start="54" selection-end="93" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
@@ -139,22 +145,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/styles/custom.css" />
-        <option value="$PROJECT_DIR$/public/tpl/LoginView.html" />
-        <option value="$PROJECT_DIR$/public/js/views/login.js" />
-        <option value="$PROJECT_DIR$/public/js/views/businessgeneratetokens.js" />
-        <option value="$PROJECT_DIR$/public/tpl/FooterView.html" />
         <option value="$PROJECT_DIR$/public/tpl/BusinessHomeView.html" />
-        <option value="$PROJECT_DIR$/models/business.js" />
         <option value="$PROJECT_DIR$/public/tpl/HomeView.html" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/public/js/views/businesssignup.js" />
         <option value="$PROJECT_DIR$/public/js/views/businessemployeesettingsview.js" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/public/js/views/businesshome.js" />
         <option value="$PROJECT_DIR$/public/js/views/businessemployeesettings.js" />
-        <option value="$PROJECT_DIR$/public/tpl/BusinessEmployeeSettingsView.html" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/tpl/BusinessEmployeeSettingsView.html" />
+        <option value="$PROJECT_DIR$/models/user.js" />
+        <option value="$PROJECT_DIR$/models/employee.js" />
+        <option value="$PROJECT_DIR$/models/business.js" />
+        <option value="$PROJECT_DIR$/public/js/models/employeedata.js" />
+        <option value="$PROJECT_DIR$/public/js/models/employeedatum.js" />
+        <option value="$PROJECT_DIR$/public/js/models/businessdata.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -388,24 +394,16 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="settings.nodejs" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="settings.nodejs" />
     <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Node.js.run">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -416,8 +414,12 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -425,6 +427,10 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -512,14 +518,17 @@
       <created>1385936807838</created>
       <updated>1385936807838</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added the icons for the employeesettingsview GUI along with the supporting backbone code.">
+      <created>1385938617543</created>
+      <updated>1385938617543</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -534,6 +543,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -554,64 +564,16 @@
     <MESSAGE value="updated business home gui. Now contains calendar view." />
     <MESSAGE value="fixed redirect to login screen upon signing up a business." />
     <MESSAGE value="Put in icons for employee settings view in businessHOME" />
-    <option name="LAST_COMMIT_MESSAGE" value="Put in icons for employee settings view in businessHOME" />
+    <MESSAGE value="added the icons for the employeesettingsview GUI along with the supporting backbone code." />
+    <option name="LAST_COMMIT_MESSAGE" value="added the icons for the employeesettingsview GUI along with the supporting backbone code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/js/views/businesssignup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1207">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/views/customerhome.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/views/customersignup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/views/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="6" selection-start="0" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/views/businesshome.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="6" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/views/businessgeneratetokens.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="214" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/views/businessemployeesettings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="20" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/tpl/BusinessHomeView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="54" selection-end="93" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="391">
+        <state line="2" column="12" selection-start="54" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="391">
           <folding />
         </state>
       </provider>
@@ -625,7 +587,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/tpl/BusinessGenerateTokensView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="87" selection-end="139" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="646">
+        <state line="1" column="0" selection-start="87" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
@@ -644,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/tpl/BusinessEmployeeSettingsView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="311" selection-end="311" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/views/footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
@@ -665,9 +620,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/tpl/BusinessEmployeeSettingsView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="2" selection-start="201" selection-end="201" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/employee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="5" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding>
+            <marker date="1385942477855" expanded="true" signature="165:611" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="0" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/business.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/models/businessdata.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="6" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/models/employeedatum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="44" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2516">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="6" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.5751015" vertical-offset="153" max-vertical-offset="1105">
+        <state line="31" column="21" selection-start="1095" selection-end="1095" vertical-scroll-proportion="-7.5" vertical-offset="332" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="240" column="0" selection-start="6897" selection-end="6897" vertical-scroll-proportion="0.46666667" vertical-offset="3723" max-vertical-offset="4658">
           <folding />
         </state>
       </provider>

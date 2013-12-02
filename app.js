@@ -15,9 +15,10 @@ var mongoose = require('mongoose');
 // Passport allows us to get login info from places like Facebook
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
-// Import user model
+// Import models
 var User = require('./models/user.js');
-
+var Business = require('./models/business.js');
+var Employee = require('./models/employee.js');
 
 
 // Declares the server (creates a server called 'app')
