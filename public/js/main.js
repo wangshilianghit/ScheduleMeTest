@@ -26,8 +26,8 @@ window.Router = Backbone.Router.extend({
         "businessHome" : "businessHome",
         "login": "login",
         "businessGenerateTokens" : "businessGenerateTokens",
-        "businessEmployeeSettings" : "businessEmployeeSettings" /*
-        "businessServiceSettings" : "businessServiceSettings",
+        "businessEmployeeSettings" : "businessEmployeeSettings",
+        "businessServiceSettings" : "businessServiceSettings" /*
         "businessViewAnalytics" : "businessViewAnalytics"*/
 
     },
@@ -172,12 +172,24 @@ window.Router = Backbone.Router.extend({
             this.businessEmployeeSettingsView.delegateEvents(); // delegate events when the view is recycled
         }
         $("#subcontent").html(this.businessEmployeeSettingsView.el);
+    },
+
+    businessServiceSettings: function() {
+        // Since the Home view never changes, we instantiate it and render it only once
+        if (!this.businessServiceSettingsView) {
+            this.businessServiceSettingsView = new BusinessServiceSettingsView();
+            this.businessServiceSettingsView.render();
+        }
+        else {
+            this.businessServiceSettingsView.delegateEvents(); // delegate events when the view is recycled
+        }
+        $("#subcontent").html(this.businessServiceSettingsView.el);
     }
 
 
 });
 
-templateLoader.load(["HomeView",  "HeaderView", "FooterView", "CustomerSignupView","BusinessSignupView","EmployeeSignupView", "CustomerHomeView","BusinessHomeView","EmployeeHomeView", "LoginView","BusinessGenerateTokensView","BusinessEmployeeSettingsView"],
+templateLoader.load(["HomeView",  "HeaderView", "FooterView", "CustomerSignupView","BusinessSignupView","EmployeeSignupView", "CustomerHomeView","BusinessHomeView","EmployeeHomeView", "LoginView","BusinessGenerateTokensView","BusinessEmployeeSettingsView", "BusinessServiceSettingsView"],
     function () {
         app = new Router();
         Backbone.history.start();
