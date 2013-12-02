@@ -54,7 +54,4 @@ window.CustomerSignupView = Backbone.View.extend({
             }
         });
     }
-
-
-
 });
