@@ -142,7 +142,7 @@ app.post('/login', passport.authenticate('local'), function (req, res) {
 // logout the current user
 app.get('/logout', function(req, res){
     req.logout();
-    res.redirect('/');
+    res.send({message:'logout success'});
 });
 
 // Instantiate the HTTP Express server

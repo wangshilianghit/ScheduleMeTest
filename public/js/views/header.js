@@ -29,6 +29,16 @@ window.HeaderView = Backbone.View.extend({
 
     },
     logoutHereButtonClicked:function () {
+        $.ajax({
+            url: "../logout",
+            type: 'GET',
+            dataType: 'json', // added data type
+            success: function(res) {
+                console.log(res);
+                app.navigate('/', {trigger: true});
+
+            }
+        });
 
     }
 
