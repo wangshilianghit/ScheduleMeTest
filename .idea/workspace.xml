@@ -34,19 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeaderView.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HeaderView.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/tpl/HeaderView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="29" selection-start="569" selection-end="569" vertical-scroll-proportion="0.295858" vertical-offset="0" max-vertical-offset="676">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/styles/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="18" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1040">
+            <state line="16" column="27" selection-start="842" selection-end="842" vertical-scroll-proportion="-11.034483" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -56,33 +47,19 @@
         <entry file="file://$PROJECT_DIR$/public/js/views/header.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="44" column="0" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1080">
-              <folding />
+              <folding>
+                <marker date="1386140033577" expanded="true" signature="125:1028" placeholder="{...}" />
+                <marker date="1386140033577" expanded="true" signature="700:1024" placeholder="{...}" />
+                <marker date="1386140033577" expanded="true" signature="705:1015" placeholder="{&quot;url&quot;: &quot;../logout&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="login.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/views/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0" vertical-offset="395" max-vertical-offset="1100">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="28" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.0" vertical-offset="1040" max-vertical-offset="4080">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="businesshome.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/views/businesshome.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="44" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+            <state line="6" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="0.17021276" vertical-offset="0" max-vertical-offset="1100">
               <folding />
             </state>
           </provider>
@@ -107,8 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/tpl/BusinessEmployeeSettingsView.html" />
         <option value="$PROJECT_DIR$/models/user.js" />
         <option value="$PROJECT_DIR$/models/employee.js" />
         <option value="$PROJECT_DIR$/models/business.js" />
@@ -121,8 +96,10 @@
         <option value="$PROJECT_DIR$/public/js/views/customerhome.js" />
         <option value="$PROJECT_DIR$/public/js/views/businesshome.js" />
         <option value="$PROJECT_DIR$/public/js/views/employeehome.js" />
-        <option value="$PROJECT_DIR$/public/styles/custom.css" />
         <option value="$PROJECT_DIR$/public/tpl/HeaderView.html" />
+        <option value="$PROJECT_DIR$/public/tpl/FooterView.html" />
+        <option value="$PROJECT_DIR$/public/styles/custom.css" />
+        <option value="$PROJECT_DIR$/public/tpl/HomeView.html" />
       </list>
     </option>
   </component>
@@ -204,47 +181,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScheduleMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScheduleMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScheduleMe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -518,7 +473,15 @@
       <created>1386140005955</created>
       <updated>1386140005956</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Changed HeaderView.html">
+      <created>1386140076126</created>
+      <updated>1386140076127</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Changed HeaderView.html, HomeView.html">
+      <created>1386141005502</created>
+      <updated>1386141005502</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -566,44 +529,13 @@
     <MESSAGE value="added backend logout route" />
     <MESSAGE value="logout logic for front end (incomplete)" />
     <MESSAGE value="Changed HeaderView.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed HeaderView.html" />
+    <MESSAGE value="Changed HeaderView.html, HomeView.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed HeaderView.html, HomeView.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/js/models/employeedatum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="44" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2516" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="21" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1088" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/views/footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/views/businesssignup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="20" selection-start="671" selection-end="1782" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1207">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/views/customersignup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="26" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1054">
@@ -632,24 +564,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="28" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="3468">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/views/header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="0" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/views/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="935">
-          <folding />
+          <folding>
+            <marker date="1386140033577" expanded="true" signature="125:1028" placeholder="{...}" />
+            <marker date="1386140033577" expanded="true" signature="700:1024" placeholder="{...}" />
+            <marker date="1386140033577" expanded="true" signature="705:1015" placeholder="{&quot;url&quot;: &quot;../logout&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -660,16 +582,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/styles/custom.css">
+    <entry file="file://$PROJECT_DIR$/public/tpl/HeaderView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="18" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1040">
+        <state line="16" column="27" selection-start="842" selection-end="842" vertical-scroll-proportion="-11.034483" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/tpl/HeaderView.html">
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="569" selection-end="569" vertical-scroll-proportion="0.295858" vertical-offset="0" max-vertical-offset="676">
+        <state line="52" column="28" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="3468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tpl/EmployeeHomeView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tpl/BusinessHomeView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tpl/BusinessServiceSettingsView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="82" selection-start="222" selection-end="227" vertical-scroll-proportion="-3.4482758" vertical-offset="0" max-vertical-offset="440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tpl/FooterView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="72" selection-start="472" selection-end="472" vertical-scroll-proportion="0.32544377" vertical-offset="0" max-vertical-offset="676">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="1" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tpl/HomeView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="59" selection-start="1819" selection-end="1819" vertical-scroll-proportion="1.4223228" vertical-offset="237" max-vertical-offset="1560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/views/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="0.17021276" vertical-offset="0" max-vertical-offset="1100">
           <folding />
         </state>
       </provider>

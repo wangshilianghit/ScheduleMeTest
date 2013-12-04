@@ -13,6 +13,12 @@
     margin-left: 10px;
     color: #345578;
 }
+
+.jumbotron .my-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .center {
     margin: 0 auto
 }
