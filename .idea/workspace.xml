@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23ad33ba-1c43-47b5-894c-268443c44370" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="project.iws" />
@@ -55,7 +56,7 @@
       <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/models/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="21" selection-start="0" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="646">
+            <state line="13" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
@@ -73,7 +74,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="33" selection-start="2124" selection-end="2124" vertical-scroll-proportion="-1.0888889" vertical-offset="1853" max-vertical-offset="2618">
+            <state line="137" column="0" selection-start="4156" selection-end="4156" vertical-scroll-proportion="0.62222224" vertical-offset="1853" max-vertical-offset="2703">
               <folding />
             </state>
           </provider>
@@ -517,13 +518,18 @@
       <created>1385945834799</created>
       <updated>1385945834799</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="removed extra code">
+      <created>1386116414989</created>
+      <updated>1386116414989</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -538,7 +544,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -561,7 +566,8 @@
     <MESSAGE value="Put in icons for employee settings view in businessHOME" />
     <MESSAGE value="added the icons for the employeesettingsview GUI along with the supporting backbone code." />
     <MESSAGE value="added employee and business models on both front end and back end" />
-    <option name="LAST_COMMIT_MESSAGE" value="added employee and business models on both front end and back end" />
+    <MESSAGE value="removed extra code" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed extra code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -586,7 +592,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/styles/bootstrap_space.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="130679" />
+        <state line="16" column="17" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="130679">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/styles/custom.css">
@@ -619,13 +627,6 @@
           <folding>
             <marker date="1385942477855" expanded="true" signature="165:611" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="21" selection-start="0" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,9 +665,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="33" selection-start="2124" selection-end="2124" vertical-scroll-proportion="-1.0888889" vertical-offset="1853" max-vertical-offset="2618">
+        <state line="137" column="0" selection-start="4156" selection-end="4156" vertical-scroll-proportion="0.62222224" vertical-offset="1853" max-vertical-offset="2703">
           <folding />
         </state>
       </provider>

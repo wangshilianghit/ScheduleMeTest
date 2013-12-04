@@ -139,6 +139,11 @@ app.post('/login', passport.authenticate('local'), function (req, res) {
     });
 
 });
+// logout the current user
+app.get('/logout', function(req, res){
+    req.logout();
+    res.redirect('/');
+});
 
 // Instantiate the HTTP Express server
 http.createServer(app).listen(app.get('port'), function(){
