@@ -6,6 +6,7 @@ var signupcustomer = require('./routes/signupcustomer.js');
 var signupbusiness = require('./routes/signupbusiness.js');
 var signupemployee = require('./routes/signupemployee.js');
 var generatetoken = require('./routes/generatetoken.js');
+var api = require('./routes/api');
 // For HTTP server
 var http = require('http');
 // Parses the path
@@ -108,7 +109,9 @@ db.once('open', function callback() {
 
 //index route for main page
 app.get('/', routes.index);
-
+app.get('/api/employees/:id', api.employees);
+app.get('/api/appointments/:id', api.appointments);
+app.get('/api/business/:id', api.business);
 // valid post routes
 
 // signup route for customer, adds a customer to the database
