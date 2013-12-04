@@ -8,6 +8,11 @@
     padding-top: 30px;
 }
 
+.my-btn {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #345578;
+}
 .center {
     margin: 0 auto
 }
