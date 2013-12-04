@@ -29,7 +29,7 @@ window.HeaderView = Backbone.View.extend({
 
     },
     logoutHereButtonClicked:function () {
-        
+
     }
 
 

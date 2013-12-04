@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="23ad33ba-1c43-47b5-894c-268443c44370" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tpl/HeaderView.html" afterPath="$PROJECT_DIR$/public/tpl/HeaderView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/views/businesshome.js" afterPath="$PROJECT_DIR$/public/js/views/businesshome.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/views/customerhome.js" afterPath="$PROJECT_DIR$/public/js/views/customerhome.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/views/employeehome.js" afterPath="$PROJECT_DIR$/public/js/views/employeehome.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/views/header.js" afterPath="$PROJECT_DIR$/public/js/views/header.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -28,24 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="21" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1088">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/models/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,16 +43,16 @@
       <file leaf-file-name="HeaderView.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/tpl/HeaderView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="56" selection-start="733" selection-end="733" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="391">
+            <state line="17" column="6" selection-start="845" selection-end="845" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="header.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/views/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="8" selection-start="617" selection-end="617" vertical-scroll-proportion="0.6888889" vertical-offset="0" max-vertical-offset="765">
+            <state line="31" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -103,16 +88,34 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="12" selection-start="195" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="3519">
+            <state line="52" column="28" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="3468">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/views/footer.js">
+      <file leaf-file-name="customerhome.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/views/customerhome.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="9" column="8" selection-start="219" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="businesshome.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/views/businesshome.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="28" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="employeehome.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/views/employeehome.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="28" selection-start="185" selection-end="185" vertical-scroll-proportion="0.17777778" vertical-offset="0" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -137,9 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/js/views/businesssignup.js" />
-        <option value="$PROJECT_DIR$/public/js/views/businessemployeesettingsview.js" />
-        <option value="$PROJECT_DIR$/public/js/views/businesshome.js" />
         <option value="$PROJECT_DIR$/public/js/views/businessemployeesettings.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/tpl/BusinessEmployeeSettingsView.html" />
@@ -151,8 +151,11 @@
         <option value="$PROJECT_DIR$/public/js/models/businessdata.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/public/tpl/HeaderView.html" />
-        <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/public/js/views/header.js" />
+        <option value="$PROJECT_DIR$/public/js/main.js" />
+        <option value="$PROJECT_DIR$/public/js/views/customerhome.js" />
+        <option value="$PROJECT_DIR$/public/js/views/businesshome.js" />
+        <option value="$PROJECT_DIR$/public/js/views/employeehome.js" />
       </list>
     </option>
   </component>
@@ -526,7 +529,11 @@
       <created>1386116907766</created>
       <updated>1386116907766</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="logout logic for front end (incomplete)">
+      <created>1386118887103</created>
+      <updated>1386118887103</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -572,35 +579,13 @@
     <MESSAGE value="added employee and business models on both front end and back end" />
     <MESSAGE value="removed extra code" />
     <MESSAGE value="added backend logout route" />
-    <option name="LAST_COMMIT_MESSAGE" value="added backend logout route" />
+    <MESSAGE value="logout logic for front end (incomplete)" />
+    <option name="LAST_COMMIT_MESSAGE" value="logout logic for front end (incomplete)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/tpl/BusinessEmployeeSettingsView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/employee.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding>
-            <marker date="1385942477855" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/business.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/models/businessdata.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="6" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
@@ -664,13 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/tpl/HeaderView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="56" selection-start="733" selection-end="733" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="140" column="3" selection-start="4169" selection-end="4169" vertical-scroll-proportion="0.0" vertical-offset="1853" max-vertical-offset="2703">
@@ -678,16 +656,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+    <entry file="file://$PROJECT_DIR$/public/tpl/HeaderView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="195" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="3519">
+        <state line="17" column="6" selection-start="845" selection-end="845" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="391">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/views/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="8" selection-start="617" selection-end="617" vertical-scroll-proportion="0.6888889" vertical-offset="0" max-vertical-offset="765">
+        <state line="31" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="28" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="3468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/views/customerhome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="8" selection-start="219" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/views/businesshome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="28" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/views/employeehome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="185" selection-end="185" vertical-scroll-proportion="0.17777778" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
       </provider>

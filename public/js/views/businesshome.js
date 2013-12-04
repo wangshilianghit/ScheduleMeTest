@@ -16,6 +16,7 @@ window.BusinessHomeView = Backbone.View.extend({
 
     render: function () {
         $(this.el).html(this.template());
+        $('#logout').show();
 
         return this;
     },

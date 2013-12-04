@@ -25,7 +25,6 @@ window.Router = Backbone.Router.extend({
         "employeeHome" : "employeeHome",
         "businessHome" : "businessHome",
         "login": "login",
-        "logout": "logout",
         "businessGenerateTokens" : "businessGenerateTokens",
         "businessEmployeeSettings" : "businessEmployeeSettings",
         "businessServiceSettings" : "businessServiceSettings" /*
@@ -51,6 +50,7 @@ window.Router = Backbone.Router.extend({
             this.homeView.delegateEvents(); // delegate events when the view is recycled
         }
         $("#content").html(this.homeView.el);
+        $('#logout').hide();
        // this.headerView.select('home-menu');
        // this.footerView.select('home-menu');
     },
@@ -149,9 +149,6 @@ window.Router = Backbone.Router.extend({
         $("#content").html(this.loginView.el);
         // this.headerView.select('home-menu');
         // this.footerView.select('home-menu');
-    },
-    logout: function () {
-
     },
 
     businessGenerateTokens: function() {
