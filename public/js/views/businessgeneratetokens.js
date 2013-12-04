@@ -18,7 +18,7 @@ window.BusinessGenerateTokensView = Backbone.View.extend({
     generateTokensClicked: function (event) {
         event.preventDefault(); // Don't let this button submit the form
         $('.alert-error').hide(); // Hide any errors on a new submit
-        var url = '../generateTokens';
+        var url = '../generate_tokens';
         console.log('token generate ');
         var formValues = {
             business: 'Peter'
