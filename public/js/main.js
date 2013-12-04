@@ -50,6 +50,7 @@ window.Router = Backbone.Router.extend({
             this.homeView.delegateEvents(); // delegate events when the view is recycled
         }
         $("#content").html(this.homeView.el);
+        $("#subcontent").empty();
         $('#logout').hide();
 
        // this.headerView.select('home-menu');
@@ -116,10 +117,7 @@ window.Router = Backbone.Router.extend({
             this.businessHomeView = new BusinessHomeView();
             this.businessHomeView.render();
         }
-        else {
-            this.businessHomeView.delegateEvents();
-             console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");// delegate events when the view is recycled
-        }
+
         $("#content").html(this.businessHomeView.el);
         // this.headerView.select('home-menu');
         // this.footerView.select('home-menu');
@@ -148,7 +146,7 @@ window.Router = Backbone.Router.extend({
             this.loginView.delegateEvents(); // delegate events when the view is recycled
         }
         $("#content").html(this.loginView.el);
-      //  $('#subcontent').empty();
+        $('#subcontent').empty();
         // this.headerView.select('home-menu');
         // this.footerView.select('home-menu');
     },
@@ -159,9 +157,7 @@ window.Router = Backbone.Router.extend({
             this.businessGenerateTokensView = new BusinessGenerateTokensView({model:this.userModel});
             this.businessGenerateTokensView.render();
         }
-        else {
-            this.businessGenerateTokens.delegateEvents(); // delegate events when the view is recycled
-        }
+
         $("#subcontent").html(this.businessGenerateTokensView.el);
     },
 
@@ -171,9 +167,7 @@ window.Router = Backbone.Router.extend({
             this.businessEmployeeSettingsView = new BusinessEmployeeSettingsView({model:this.userModel});
             this.businessEmployeeSettingsView.render();
         }
-        else {
-            this.businessEmployeeSettingsView.delegateEvents(); // delegate events when the view is recycled
-        }
+
         $("#subcontent").html(this.businessEmployeeSettingsView.el);
     },
 
@@ -183,9 +177,7 @@ window.Router = Backbone.Router.extend({
             this.businessServiceSettingsView = new BusinessServiceSettingsView({model:this.userModel});
             this.businessServiceSettingsView.render();
         }
-        else {
-            this.businessServiceSettingsView.delegateEvents(); // delegate events when the view is recycled
-        }
+
         $("#subcontent").html(this.businessServiceSettingsView.el);
     }
 

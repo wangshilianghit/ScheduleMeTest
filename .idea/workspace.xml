@@ -3,19 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="23ad33ba-1c43-47b5-894c-268443c44370" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/signupcustomer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tpl/BusinessEmployeeSettingsView.html" afterPath="$PROJECT_DIR$/public/tpl/BusinessEmployeeSettingsView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tpl/BusinessGenerateTokensView.html" afterPath="$PROJECT_DIR$/public/tpl/BusinessGenerateTokensView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tpl/BusinessServiceSettingsView.html" afterPath="$PROJECT_DIR$/public/tpl/BusinessServiceSettingsView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tpl/BusinessViewAnalytics.html" afterPath="$PROJECT_DIR$/public/tpl/BusinessViewAnalytics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/views/businessgeneratetokens.js" afterPath="$PROJECT_DIR$/public/js/views/businessgeneratetokens.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/views/businesshome.js" afterPath="$PROJECT_DIR$/public/js/views/businesshome.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/views/businesssignup.js" afterPath="$PROJECT_DIR$/public/js/views/businesssignup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/views/customersignup.js" afterPath="$PROJECT_DIR$/public/js/views/customersignup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/views/employeesignup.js" afterPath="$PROJECT_DIR$/public/js/views/employeesignup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tpl/HeaderView.html" afterPath="$PROJECT_DIR$/public/tpl/HeaderView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/views/header.js" afterPath="$PROJECT_DIR$/public/js/views/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/views/login.js" afterPath="$PROJECT_DIR$/public/js/views/login.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/user.js" afterPath="$PROJECT_DIR$/models/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="project.iws" />
@@ -39,28 +29,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CustomerSignupView.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/tpl/CustomerSignupView.html">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="680">
+            <state line="113" column="48" selection-start="3321" selection-end="3321" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="2703">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeView.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/tpl/HomeView.html">
+      <file leaf-file-name="HeaderView.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/tpl/HeaderView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1326">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/views/home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="6" column="67" selection-start="444" selection-end="444" vertical-scroll-proportion="0.13953489" vertical-offset="0" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -75,37 +56,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="businesshome.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/views/businesshome.js">
+      <file leaf-file-name="generatetoken.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/generatetoken.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="3" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+            <state line="12" column="60" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customersignup.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/views/customersignup.js">
+      <file leaf-file-name="header.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/views/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+            <state line="28" column="0" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="employeesignup.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/views/employeesignup.js">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+            <state line="125" column="66" selection-start="4819" selection-end="4819" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="3366">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="businesssignup.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/js/views/businesssignup.js">
+      <file leaf-file-name="HomeView.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/tpl/HomeView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="352" selection-end="352" vertical-scroll-proportion="0.44914135" vertical-offset="0" max-vertical-offset="1037">
+            <state line="31" column="31" selection-start="651" selection-end="688" vertical-scroll-proportion="-16.346153" vertical-offset="102" max-vertical-offset="1326">
               <folding />
             </state>
           </provider>
@@ -114,7 +95,7 @@
       <file leaf-file-name="BusinessGenerateTokensView.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/tpl/BusinessGenerateTokensView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="374">
+            <state line="12" column="0" selection-start="318" selection-end="318" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
@@ -123,7 +104,16 @@
       <file leaf-file-name="businessgeneratetokens.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/views/businessgeneratetokens.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="20" selection-start="1136" selection-end="1172" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="884">
+            <state line="34" column="52" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="93" max-vertical-offset="867">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/views/home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="8" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -148,22 +138,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/js/models/user.js" />
-        <option value="$PROJECT_DIR$/public/styles/custom.css" />
-        <option value="$PROJECT_DIR$/public/js/views/header.js" />
-        <option value="$PROJECT_DIR$/public/tpl/BusinessEmployeeSettingsView.html" />
         <option value="$PROJECT_DIR$/public/tpl/BusinessServiceSettingsView.html" />
         <option value="$PROJECT_DIR$/public/tpl/BusinessViewAnalytics.html" />
         <option value="$PROJECT_DIR$/public/js/views/login.js" />
         <option value="$PROJECT_DIR$/models/user.js" />
-        <option value="$PROJECT_DIR$/public/js/main.js" />
-        <option value="$PROJECT_DIR$/public/tpl/BusinessGenerateTokensView.html" />
-        <option value="$PROJECT_DIR$/public/js/views/businessgeneratetokens.js" />
         <option value="$PROJECT_DIR$/public/tpl/BusinessHomeView.html" />
         <option value="$PROJECT_DIR$/public/js/views/businesshome.js" />
         <option value="$PROJECT_DIR$/public/js/views/customersignup.js" />
         <option value="$PROJECT_DIR$/public/js/views/employeesignup.js" />
         <option value="$PROJECT_DIR$/public/js/views/businesssignup.js" />
+        <option value="$PROJECT_DIR$/public/tpl/BusinessGenerateTokensView.html" />
+        <option value="$PROJECT_DIR$/routes/generatetoken.js" />
+        <option value="$PROJECT_DIR$/public/js/views/businessgeneratetokens.js" />
+        <option value="$PROJECT_DIR$/public/js/views/home.js" />
+        <option value="$PROJECT_DIR$/public/js/views/header.js" />
+        <option value="$PROJECT_DIR$/public/js/main.js" />
+        <option value="$PROJECT_DIR$/public/tpl/HeaderView.html" />
       </list>
     </option>
   </component>
@@ -507,13 +497,22 @@
       <created>1386141046084</created>
       <updated>1386141046084</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Greatly reduced redundant logic in clientside signup code by using href attributes more intelligently.">
+      <created>1386153474788</created>
+      <updated>1386153474788</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Fixed the bug with generate token by adding proper listeners to buttons.">
+      <created>1386154243252</created>
+      <updated>1386154243252</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -528,7 +527,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -556,47 +554,14 @@
     <MESSAGE value="logout logic for front end (incomplete)" />
     <MESSAGE value="Changed HeaderView.html" />
     <MESSAGE value="Changed HeaderView.html, HomeView.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed HeaderView.html, HomeView.html" />
+    <MESSAGE value="Greatly reduced redundant logic in clientside signup code by using href attributes more intelligently." />
+    <MESSAGE value="Fixed the bug with generate token by adding proper listeners to buttons." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the bug with generate token by adding proper listeners to buttons." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="47" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0" vertical-offset="1938" max-vertical-offset="2703">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/generatetoken.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="757">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/tpl/CustomerHomeView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/tpl/BusinessSignupView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="757">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/tpl/EmployeeSignupView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="757">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/tpl/EmployeeHomeView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
@@ -604,37 +569,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/views/home.js">
+    <entry file="file://$PROJECT_DIR$/public/js/views/employeesignup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="757">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/tpl/HomeView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/tpl/BusinessGenerateTokensView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/tpl/BusinessHomeView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="869" selection-end="869" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/views/businessgeneratetokens.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="20" selection-start="1136" selection-end="1172" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="884">
+        <state line="18" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>
@@ -642,6 +579,15 @@
     <entry file="file://$PROJECT_DIR$/public/js/views/businesshome.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="3" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding>
+            <marker date="1386152918088" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/views/businesssignup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="48" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>
@@ -660,16 +606,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/views/employeesignup.js">
+    <entry file="file://$PROJECT_DIR$/public/tpl/BusinessGenerateTokensView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+        <state line="12" column="0" selection-start="318" selection-end="318" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/views/businesssignup.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="352" selection-end="352" vertical-scroll-proportion="0.44914135" vertical-offset="0" max-vertical-offset="1037">
+        <state line="113" column="48" selection-start="3321" selection-end="3321" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="2703">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/generatetoken.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="60" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/views/businessgeneratetokens.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="52" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="93" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/views/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="8" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tpl/BusinessHomeView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="869" selection-end="869" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/views/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="66" selection-start="4819" selection-end="4819" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="3366">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tpl/HomeView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="31" selection-start="651" selection-end="688" vertical-scroll-proportion="-16.346153" vertical-offset="102" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tpl/HeaderView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="67" selection-start="444" selection-end="444" vertical-scroll-proportion="0.13953489" vertical-offset="0" max-vertical-offset="731">
           <folding />
         </state>
       </provider>

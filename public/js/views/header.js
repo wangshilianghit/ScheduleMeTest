@@ -26,6 +26,7 @@ window.HeaderView = Backbone.View.extend({
 
     },
     logoutHereButtonClicked:function () {
+
         var myModel = this.model;
         $.ajax({
             url: "../logout",
@@ -35,8 +36,9 @@ window.HeaderView = Backbone.View.extend({
                 console.log(res);
                 myModel.set(myModel.defaults);
                 //add a more complete model unload here.
-                app.navigate('/', {trigger: true});
+                app.navigate('', {trigger: true});
                 $('#login').show();
+                $("#subcontent").empty();
 
             }
         });
