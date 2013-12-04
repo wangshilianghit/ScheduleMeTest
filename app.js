@@ -2,6 +2,9 @@
 var express = require('express');
 // Define where the controller for the login and signup are
 var routes = require('./routes');
+var signupcustomer = require('./routes/signupcustomer.js');
+var signupbusiness = require('./routes/signupbusiness.js');
+var signupemployee = require('./routes/signupemployee.js');
 //var login_customer = require('./routes/login_customer');
 //var login_business = require('./routes/login_business');
 //var login_employee = require('./routes/login_employee');
@@ -131,75 +134,13 @@ app.get('/users', function (req,res) {
 
 // valid post routes
 // signup route for customer, adds a customer to the database
-app.post('/signup_customer', function (req, res) {
-    requestASJSON = JSON.parse(JSON.stringify(req.body));
-    console.log(requestASJSON);
-    email = requestASJSON.email;
-    password = requestASJSON.password;
-    firstName = requestASJSON.firstName;
-    lastName = requestASJSON.lastName;
-
-    <!-- Should this have typeAccount: "customer"? -->
-    var newUser = new User({email: email, password: password, firstName: firstName, lastName: lastName});
-
-    newUser.save(function (err) {
-        if (err) {
-            console.log(err);
-            res.send(500, {error: "DB error"});
-        }
-
-    });
-});
+app.post('/signup_customer', signupcustomer.signupcustomer);
 
 // signup route for employee, adds an employee to the database
-app.post('/signup_employee', function (req, res) {
-
-    requestASJSON = JSON.parse(JSON.stringify(req.body));
-    console.log(requestASJSON);
-    email = requestASJSON.email;
-    password = requestASJSON.password;
-    firstName = requestASJSON.firstName;
-    lastName = requestASJSON.lastName;
-    accessCode = requestASJSON.accessCode;
-
-
-    var newUser = new User({email: email, password: password, firstName: firstName, lastName: lastName, accessCode: accessCode, typeAccount: "employee"});
-
-    newUser.save(function (err) {
-        if (err) {
-            console.log(err);
-            res.send(500, {error: "DB error"});
-        }
-
-    });
-
-});
+app.post('/signup_employee', signupemployee.signupemployee);
 
 // signup route for a business, adds a business to the database
-app.post('/signup_business', function (req, res) {
-
-    requestASJSON = JSON.parse(JSON.stringify(req.body));
-    console.log(requestASJSON);
-    business = requestASJSON.business;
-    email = requestASJSON.email;
-    password = requestASJSON.password;
-    firstName = requestASJSON.firstName;
-    lastName = requestASJSON.lastName;
-
-
-    var newUser = new User({business: business, email: email, password: password, firstName: firstName, lastName: lastName, typeAccount: "business"});
-
-    newUser.save(function (err) {
-        if (err) {
-            console.log(err);
-            res.send(500, {error: "DB error"});
-        }
-        else{
-            res.send({message:'success'});
-        }
-
-    });
-});
+app.post('/signup_business', signupbusiness.signupbusiness);
 
 // Generate token for employee
 app.post('/generateTokens', function (req, res) {
