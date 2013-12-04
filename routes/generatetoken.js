@@ -10,7 +10,7 @@ exports.generatetoken = function (req, res) {
     console.log(requestASJSON);
     business = requestASJSON.business;
 
-    var randomToken = Math.random().toString(36).substr(2, 5);
+    var randomToken = Math.random().toString(36).substr(2, 15);
     console.log('token: ' + randomToken);
     User.findOne({business: business }, function (err, user) {
 

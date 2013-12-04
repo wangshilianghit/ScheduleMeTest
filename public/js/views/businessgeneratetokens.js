@@ -5,7 +5,7 @@ window.BusinessGenerateTokensView = Backbone.View.extend({
     },
 
     events:{
-        "click businessGenerateTokens" : "generateTokensClicked"
+        "click #generateToken" : "generateTokensClicked"
 
     },
 
@@ -31,14 +31,13 @@ window.BusinessGenerateTokensView = Backbone.View.extend({
             data: formValues,
             success:function (data) {
 
-                console.log(["Customer Signup request details: ", data.Token]);
+                console.log("token details: "+ data.code);
+                alert("Here is your access code:\n"+data.code);
 
                 if(data.error) { // If there is an error, show the error messages
                     $('.alert-error').text(data.error.text).show();
                 }
-                else { // If not, send them back to the home page
-                    Backbone.history.navigate("/login");
-                }
+
             }
         });
 
