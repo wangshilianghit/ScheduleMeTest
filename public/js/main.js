@@ -51,6 +51,7 @@ window.Router = Backbone.Router.extend({
         }
         $("#content").html(this.homeView.el);
         $('#logout').hide();
+
        // this.headerView.select('home-menu');
        // this.footerView.select('home-menu');
     },

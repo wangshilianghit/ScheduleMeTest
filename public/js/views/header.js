@@ -6,14 +6,11 @@ window.HeaderView = Backbone.View.extend({
 
     initialize: function () {
         this.model.bind("change", this.render, this);
-
-
     },
 
     events:{
         "click #login":"loginHereButtonClicked",
         "click #logout":"logoutHereButtonClicked"
-
     },
 
     render: function () {
@@ -25,12 +22,7 @@ window.HeaderView = Backbone.View.extend({
     },
 
     loginHereButtonClicked:function () {
-        if(this.model.get('type') == 'none'){
-            app.loginView.render();
-        }
-        else{
-            app.navigate(this.model.get('type')+'Home', {trigger:true});
-        }
+         app.loginView.render();
 
     },
     logoutHereButtonClicked:function () {
@@ -47,6 +39,7 @@ window.HeaderView = Backbone.View.extend({
 
             }
         });
+        $('#login').show();
 
     }
 
