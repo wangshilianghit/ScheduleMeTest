@@ -5,6 +5,7 @@ var routes = require('./routes');
 var signupcustomer = require('./routes/signupcustomer.js');
 var signupbusiness = require('./routes/signupbusiness.js');
 var signupemployee = require('./routes/signupemployee.js');
+var generatetoken = require('./routes/generatetoken.js');
 //var login_customer = require('./routes/login_customer');
 //var login_business = require('./routes/login_business');
 //var login_employee = require('./routes/login_employee');
@@ -143,28 +144,8 @@ app.post('/signup_employee', signupemployee.signupemployee);
 app.post('/signup_business', signupbusiness.signupbusiness);
 
 // Generate token for employee
-app.post('/generateTokens', function (req, res) {
-    requestASJSON = JSON.parse(JSON.stringify(req.body));
-    console.log(requestASJSON);
-    business = requestASJSON.business;
+app.post('/generate_tokens', generatetoken.generatetoken);
 
-    var randomToken = Math.random().toString(36).substr(2, 5);
-    console.log('token: ' + randomToken);
-    User.findOne({business: business }, function (err, user) {
-
-        if(err){
-            res.send({error: "DB error"});
-        }
-        else if(user){
-            user.accessCodeForEmployee = randomToken;
-            user.save();
-            res.send(JSON.stringify({code: randomToken}));;
-        }
-        else{
-            res.send({message: "INVALID TOKEN"});
-        }
-    });
-});
 
 // Authenticate local passport using our local strategy
 app.post('/login', passport.authenticate('local'), function (req, res) {
