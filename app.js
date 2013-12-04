@@ -2,9 +2,7 @@
 var express = require('express');
 // Define where the controller for the login and signup are
 var routes = require('./routes');
-var signupcustomer = require('./routes/signupcustomer.js');
-var signupbusiness = require('./routes/signupbusiness.js');
-var signupemployee = require('./routes/signupemployee.js');
+var signup = require('./routes/signup.js');
 var generatetoken = require('./routes/generatetoken.js');
 var api = require('./routes/api');
 // For HTTP server
@@ -115,13 +113,13 @@ app.get('/api/business/:id', api.business);
 // valid post routes
 
 // signup route for customer, adds a customer to the database
-app.post('/signup_customer', signupcustomer.signupcustomer);
+app.post('/signup_customer', signup.signupcustomer);
 
 // signup route for employee, adds an employee to the database
-app.post('/signup_employee', signupemployee.signupemployee);
+app.post('/signup_employee', signup.signupemployee);
 
 // signup route for a business, adds a business to the database
-app.post('/signup_business', signupbusiness.signupbusiness);
+app.post('/signup_business', signup.signupbusiness);
 
 // Generate token for employee
 app.post('/generate_tokens', generatetoken.generatetoken);

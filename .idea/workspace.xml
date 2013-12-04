@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23ad33ba-1c43-47b5-894c-268443c44370" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/signupcustomer.js" />
-      <change type="DELETED" beforePath="C:\Users\Ricky\OOSEIter5\project\routes\user.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/signup.js" />
+      <change type="DELETED" beforePath="C:\Users\Ricky\OOSEIter5\project\routes\signupbusiness.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ricky\OOSEIter5\project\routes\signupcustomer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ricky\OOSEIter5\project\routes\signupemployee.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/generatetoken.js" afterPath="$PROJECT_DIR$/routes/generatetoken.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="project.iws" />
@@ -33,7 +33,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="41" selection-start="3424" selection-end="3424" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="2754">
+            <state line="17" column="39" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="2720">
               <folding />
             </state>
           </provider>
@@ -66,28 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signupemployee.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/signupemployee.js">
+      <file leaf-file-name="signup.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/signup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signupcustomer.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/signupcustomer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signupbusiness.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/signupbusiness.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+            <state line="59" column="40" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
               <folding />
             </state>
           </provider>
@@ -139,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/models/user.js" />
         <option value="$PROJECT_DIR$/public/tpl/BusinessHomeView.html" />
         <option value="$PROJECT_DIR$/public/js/views/businesshome.js" />
         <option value="$PROJECT_DIR$/public/js/views/customersignup.js" />
@@ -153,8 +134,9 @@
         <option value="$PROJECT_DIR$/public/tpl/HeaderView.html" />
         <option value="$PROJECT_DIR$/routes/user.js" />
         <option value="$PROJECT_DIR$/routes/generatetoken.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/api.js" />
+        <option value="$PROJECT_DIR$/routes/signupcustomer.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -502,7 +484,11 @@
       <created>1386155781519</created>
       <updated>1386155781519</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="added skeleton api for backbone model/collection fetches">
+      <created>1386185844901</created>
+      <updated>1386185844901</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -554,7 +540,8 @@
     <MESSAGE value="Greatly reduced redundant logic in clientside signup code by using href attributes more intelligently." />
     <MESSAGE value="Fixed the bug with generate token by adding proper listeners to buttons." />
     <MESSAGE value="1. To simplify state coherence issues the brand name was made unclickable&#10;2. Subcontent persistence bug solved by use of Jquery.empty()&#10;3. Added the calendar icon to our name creating a basic logo." />
-    <option name="LAST_COMMIT_MESSAGE" value="1. To simplify state coherence issues the brand name was made unclickable&#10;2. Subcontent persistence bug solved by use of Jquery.empty()&#10;3. Added the calendar icon to our name creating a basic logo." />
+    <MESSAGE value="added skeleton api for backbone model/collection fetches" />
+    <option name="LAST_COMMIT_MESSAGE" value="added skeleton api for backbone model/collection fetches" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -609,27 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/signupemployee.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/signupbusiness.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="757">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/signupcustomer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="757">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/js/tests.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="22" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="688" max-vertical-offset="1445">
@@ -660,7 +626,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="41" selection-start="3424" selection-end="3424" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="2754">
+        <state line="17" column="39" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="2720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="40" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
           <folding />
         </state>
       </provider>
