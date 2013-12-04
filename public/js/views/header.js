@@ -25,7 +25,12 @@ window.HeaderView = Backbone.View.extend({
     },
 
     loginHereButtonClicked:function () {
-        app.loginView.render();
+        if(this.model.get('type') == 'none'){
+            app.loginView.render();
+        }
+        else{
+            app.navigate(this.model.get('type')+'Home', {trigger:true});
+        }
 
     },
     logoutHereButtonClicked:function () {

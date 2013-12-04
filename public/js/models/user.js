@@ -7,7 +7,8 @@ window.UserModel = Backbone.Model.extend({
         firstName:"Login Here",
         lastName:"lname",
         business:"bname",
-        email:"email"
+        email:"email",
+        type:"none"
     },
     initialize:function () {
 

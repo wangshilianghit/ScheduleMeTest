@@ -34,15 +34,17 @@ window.LoginView = Backbone.View.extend({
             success:function (data) {
                 //JSONResponse = JSON.parse(data[1]);
                 //console.log(JSONResponse);
-               self.model.set({firstName:data.firstName});
+                self.model.set({firstName:data.firstName});
+                self.model.set({type:data.typeAccount});
                 console.log(data.firstName);
+                console.log(data.typeAccount);
 
                 if(data.error) { // If there is an error, show the error messages
                     $('.alert-error').text(data.error.text).show();
                 }
                 else { // If not, send them back to the home page
 
-                        app.navigate('businessHome', {trigger: true});
+                        app.navigate(data.typeAccount+'Home', {trigger: true});
                 }
             }
         });
