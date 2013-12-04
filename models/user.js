@@ -5,7 +5,7 @@ var mongoose = require('mongoose')
     , authTypes = ['github', 'twitter', 'facebook', 'google']
 
 /**
- * User Schema
+ * User Schema for all users of scheduleME
  */
 
 var UserSchema = new Schema({

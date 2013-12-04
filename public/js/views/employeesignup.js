@@ -9,9 +9,7 @@ window.EmployeeSignupView = Backbone.View.extend({
     },
 
     events:{
-        "click #customerSignup":"customerSignupClicked",
-        "click #businessSignup":"businessSignupClicked",
-        "click #signupButton":"signupEmployeeClicked"
+       "click #signupButton":"signupEmployeeClicked"
     },
 
     render:function () {
@@ -19,13 +17,6 @@ window.EmployeeSignupView = Backbone.View.extend({
         return this;
     },
 
-    customerSignupClicked: function (){
-        app.customerSignupView.render();
-    },
-
-    businessSignupClicked: function (){
-        app.businessSignupView.render();
-    },
 
     signupEmployeeClicked:function (event) {
         event.preventDefault(); // Don't let this button submit the form

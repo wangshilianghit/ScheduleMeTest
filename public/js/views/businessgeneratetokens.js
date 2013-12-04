@@ -21,7 +21,7 @@ window.BusinessGenerateTokensView = Backbone.View.extend({
         var url = '../generate_tokens';
         console.log('token generate ');
         var formValues = {
-            business: 'Peter'
+            business: this.model.get('business')
         };
 
         $.ajax({

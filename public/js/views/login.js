@@ -36,13 +36,14 @@ window.LoginView = Backbone.View.extend({
                 //console.log(JSONResponse);
                 self.model.set({firstName:data.firstName});
                 self.model.set({type:data.typeAccount});
+                self.model.set({business:data.business});
                 console.log(data.firstName);
                 console.log(data.typeAccount);
 
                 if(data.error) { // If there is an error, show the error messages
                     $('.alert-error').text(data.error.text).show();
                 }
-                else { // If not, send them back to the home page
+                else { // If not, send them to the home page and load models
 
                         app.navigate(data.typeAccount+'Home', {trigger: true});
                         $('#login').hide();

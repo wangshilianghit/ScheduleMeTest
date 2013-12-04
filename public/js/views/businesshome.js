@@ -6,12 +6,8 @@ window.BusinessHomeView = Backbone.View.extend({
 
     events:{
 
-        "click #businessGenerateTokens" : "generateTokensClicked",
-        "click #businessEmployeeSettings" : "employeeSettingsClicked" /*
-        "click #businessServiceSettings" : "serviceSettingsClicked",
-        "click #businessCalendarSettings" : "calendarSettingsClicked",
-        "click #businessViewAnalytics" : "viewAnalyticsClicked"
-*/
+
+
     },
 
     render: function () {
@@ -19,25 +15,7 @@ window.BusinessHomeView = Backbone.View.extend({
         $('#logout').show();
 
         return this;
-    },
+    }
 
-    generateTokensClicked: function (){
-        app.businessGenerateTokens.render();
-    },
 
-    employeeSettingsClicked: function (){
-        app.businessEmployeeSettings.render();
-    } /*
-
-    serviceSettingsClicked: function (){
-        app.businessServiceSettingsClicked.render();
-    },
-
-    calendarSettingsClicked: function (){
-        app.businessCalendarSettingsClicked.render();
-    },
-
-    businessViewAnalyticsClicked: function (){
-        app.businessViewAnalyticsClicked.render();
-    } */
 });

@@ -36,10 +36,11 @@ window.HeaderView = Backbone.View.extend({
                 myModel.set(myModel.defaults);
                 //add a more complete model unload here.
                 app.navigate('/', {trigger: true});
+                $('#login').show();
 
             }
         });
-        $('#login').show();
+
 
     }
 
