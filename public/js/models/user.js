@@ -4,7 +4,7 @@ window.UserModel = Backbone.Model.extend({
 
     defaults: {
         id: "",
-        firstName:"Login Here",
+        firstName:"",
         lastName:"lname",
         business:"bname",
         email:"email",
