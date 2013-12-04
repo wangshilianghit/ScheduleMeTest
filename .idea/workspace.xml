@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23ad33ba-1c43-47b5-894c-268443c44370" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="project.iws" />
@@ -435,7 +434,11 @@
       <created>1386116115605</created>
       <updated>1386116115605</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="removed code that wasnt">
+      <created>1386116302527</created>
+      <updated>1386116302527</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -480,7 +483,8 @@
     <MESSAGE value="Fixed the appearance of employee settings" />
     <MESSAGE value="refactored backend code as per TA/Prof request." />
     <MESSAGE value="refactored backend code as per TA/Prof request. (forget to extract method on generatetoken)." />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored backend code as per TA/Prof request. (forget to extract method on generatetoken)." />
+    <MESSAGE value="removed code that wasnt" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed code that wasnt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
