@@ -25,6 +25,7 @@ window.Router = Backbone.Router.extend({
         "employeeHome" : "employeeHome",
         "businessHome" : "businessHome",
         "login": "login",
+        "logout": "logout",
         "businessGenerateTokens" : "businessGenerateTokens",
         "businessEmployeeSettings" : "businessEmployeeSettings",
         "businessServiceSettings" : "businessServiceSettings" /*
@@ -149,6 +150,9 @@ window.Router = Backbone.Router.extend({
         // this.headerView.select('home-menu');
         // this.footerView.select('home-menu');
     },
+    logout: function () {
+
+    },
 
     businessGenerateTokens: function() {
         // Since the Home view never changes, we instantiate it and render it only once
@@ -185,6 +189,7 @@ window.Router = Backbone.Router.extend({
         }
         $("#subcontent").html(this.businessServiceSettingsView.el);
     }
+
 
 
 });

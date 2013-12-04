@@ -11,7 +11,9 @@ window.HeaderView = Backbone.View.extend({
     },
 
     events:{
-        "click #login":"loginHereButtonClicked"
+        "click #login":"loginHereButtonClicked",
+        "click #logout":"logoutHereButtonClicked"
+
     },
 
     render: function () {
@@ -25,6 +27,10 @@ window.HeaderView = Backbone.View.extend({
     loginHereButtonClicked:function () {
         app.loginView.render();
 
+    },
+    logoutHereButtonClicked:function () {
+        
     }
+
 
 });
