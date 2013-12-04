@@ -45,6 +45,7 @@ window.LoginView = Backbone.View.extend({
                 else { // If not, send them back to the home page
 
                         app.navigate(data.typeAccount+'Home', {trigger: true});
+                        $('#login').hide();
                 }
             }
         });
