@@ -6,10 +6,6 @@ var signupcustomer = require('./routes/signupcustomer.js');
 var signupbusiness = require('./routes/signupbusiness.js');
 var signupemployee = require('./routes/signupemployee.js');
 var generatetoken = require('./routes/generatetoken.js');
-//var login_customer = require('./routes/login_customer');
-//var login_business = require('./routes/login_business');
-//var login_employee = require('./routes/login_employee');
-//var Signup = require('./routes/signup');
 // For HTTP server
 var http = require('http');
 // Parses the path
@@ -23,7 +19,6 @@ var LocalStrategy = require('passport-local').Strategy;
 var User = require('./models/user.js');
 var Business = require('./models/business.js');
 var Employee = require('./models/employee.js');
-
 
 // Declares the server (creates a server called 'app')
 var app = express();
@@ -39,7 +34,6 @@ if ('development' == app.get('env')) {
 if ('production' == app.get('env')) {
     dbLocation = 'mongodb://groupawesome:group8@paulo.mongohq.com:10063/app19077050';
 }
-
 // Set the server to use the following parameters
 app.set('port', process.env.PORT || 80);
 app.set('views', __dirname + '/views');
@@ -111,29 +105,12 @@ db.once('open', function callback() {
 });
 
 // valid get routes
+
+//index route for main page
 app.get('/', routes.index);
 
-
-// backbone test
-app.get('/users', function (req,res) {
-    User.findOne({email: 'customer1@gmail.com'}, function (err, user) {
-
-        if (err) {
-            res.send({error: "DB Error"});
-        }
-
-        else if (user) {
-            res.send({error: 'email already been taken'});
-        }
-        else {
-            res.send({error: 'None'});
-        }
-    });
-
-
-});
-
 // valid post routes
+
 // signup route for customer, adds a customer to the database
 app.post('/signup_customer', signupcustomer.signupcustomer);
 
@@ -161,25 +138,6 @@ app.post('/login', passport.authenticate('local'), function (req, res) {
 
     });
 
-});
-
-/* logic to check if email during sign up is unique */
-app.post('/isUnique', function (req, res) {
-
-    email = req.param('email');
-    User.findOne({email: email}, function (err, user) {
-
-        if (err) {
-            res.send({error: "DB Error"});
-        }
-
-        else if (user) {
-            res.send({error: 'email already been taken'});
-        }
-        else {
-            res.send({error: 'None'});
-        }
-    });
 });
 
 // Instantiate the HTTP Express server
