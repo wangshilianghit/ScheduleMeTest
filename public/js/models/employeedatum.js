@@ -1,6 +1,6 @@
 window.UserModel = Backbone.Model.extend({
 
-    urlRoot:"../employees:id",
+    urlRoot:"..api/employees:id",
 
     defaults: {
         id: "",

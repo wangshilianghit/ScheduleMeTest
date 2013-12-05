@@ -1,6 +1,6 @@
 window.BusinessDataModel = Backbone.Model.extend({
 
-    urlRoot:"../business:id",
+    urlRoot:"..api/business:id",
 
     defaults: {
         id: "",

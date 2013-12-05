@@ -59,39 +59,33 @@ window.Router = Backbone.Router.extend({
 
     customerSignup: function () {
         // Since the signup view never changes, we instantiate it and render it only once
-        if (!this.customerSignupView) {
+
             this.customerSignupView = new CustomerSignupView();
             this.customerSignupView.render();
-        }
-        else {
-            this.customerSignupView.delegateEvents(); // delegate events when the view is recycled
-        }
+
+
         $("#content").html(this.customerSignupView.el);
         // this.headerView.select('home-menu');
         // this.footerView.select('home-menu');
     },
     businessSignup: function () {
         // Since the signup view never changes, we instantiate it and render it only once
-        if (!this.businessSignupView) {
+
             this.businessSignupView = new BusinessSignupView();
             this.businessSignupView.render();
-        }
-        else {
-            this.businessSignupView.delegateEvents(); // delegate events when the view is recycled
-        }
+
+
         $("#content").html(this.businessSignupView.el);
         // this.headerView.select('home-menu');
         // this.footerView.select('home-menu');
     },
     employeeSignup: function () {
         // Since the signup view never changes, we instantiate it and render it only once
-        if (!this.employeeSignupView) {
+
             this.employeeSignupView = new EmployeeSignupView();
             this.employeeSignupView.render();
-        }
-        else {
-            this.employeeSignupView.delegateEvents(); // delegate events when the view is recycled
-        }
+
+
         $("#content").html(this.employeeSignupView.el);
         // this.headerView.select('home-menu');
         // this.footerView.select('home-menu');
@@ -100,23 +94,21 @@ window.Router = Backbone.Router.extend({
 
     customerHome: function () {
         // Since the signup view never changes, we instantiate it and render it only once
-        if (!this.customerHomeView) {
+
             this.customerHomeView = new CustomerHomeView({model:this.userModel});
             this.customerHomeView.render();
-        }
-        else {
-            this.customerHomeView.delegateEvents(); // delegate events when the view is recycled
-        }
+
+
         $("#content").html(this.customerHomeView.el);
         // this.headerView.select('home-menu');
         // this.footerView.select('home-menu');
     },
     businessHome: function () {
         // Since the Home view never changes, we instantiate it and render it only once
-        if (!this.businessHomeView) {
+
             this.businessHomeView = new BusinessHomeView();
             this.businessHomeView.render();
-        }
+
 
         $("#content").html(this.businessHomeView.el);
         // this.headerView.select('home-menu');
@@ -124,13 +116,11 @@ window.Router = Backbone.Router.extend({
     },
     employeeHome: function () {
         // Since the Home view never changes, we instantiate it and render it only once
-        if (!this.employeeHomeView) {
+
             this.employeeHomeView = new EmployeeHomeView();
             this.employeeHomeView.render();
-        }
-        else {
-            this.employeeHomeView.delegateEvents(); // delegate events when the view is recycled
-        }
+
+
         $("#content").html(this.employeeHomeView.el);
         // this.headerView.select('home-menu');
         // this.footerView.select('home-menu');
@@ -138,13 +128,11 @@ window.Router = Backbone.Router.extend({
 
     login: function () {
         // Since the Home view never changes, we instantiate it and render it only once
-        if (!this.loginView) {
+
             this.loginView = new LoginView({model:this.userModel});
             this.loginView.render();
-        }
-        else {
-            this.loginView.delegateEvents(); // delegate events when the view is recycled
-        }
+
+
         $("#content").html(this.loginView.el);
         $('#subcontent').empty();
         // this.headerView.select('home-menu');
@@ -153,30 +141,30 @@ window.Router = Backbone.Router.extend({
 
     businessGenerateTokens: function() {
         // Since the Home view never changes, we instantiate it and render it only once
-        if (!this.businessGenerateTokensView) {
+
             this.businessGenerateTokensView = new BusinessGenerateTokensView({model:this.userModel});
             this.businessGenerateTokensView.render();
-        }
+
 
         $("#subcontent").html(this.businessGenerateTokensView.el);
     },
 
     businessEmployeeSettings: function() {
         // Since the Home view never changes, we instantiate it and render it only once
-        if (!this.businessEmployeeSettingsView) {
+
             this.businessEmployeeSettingsView = new BusinessEmployeeSettingsView({model:this.userModel});
             this.businessEmployeeSettingsView.render();
-        }
+
 
         $("#subcontent").html(this.businessEmployeeSettingsView.el);
     },
 
     businessServiceSettings: function() {
         // Since the Home view never changes, we instantiate it and render it only once
-        if (!this.businessServiceSettingsView) {
+
             this.businessServiceSettingsView = new BusinessServiceSettingsView({model:this.userModel});
             this.businessServiceSettingsView.render();
-        }
+        
 
         $("#subcontent").html(this.businessServiceSettingsView.el);
     }
