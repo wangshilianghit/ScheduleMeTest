@@ -28,8 +28,9 @@ window.Router = Backbone.Router.extend({
         "businessGenerateTokens" : "businessGenerateTokens",
         "businessEmployeeSettings" : "businessEmployeeSettings",
         "businessServiceSettings" : "businessServiceSettings",
-		"businessViewCalendar" : "businessViewCalendar" /*
-        "businessViewAnalytics" : "businessViewAnalytics"*/
+		"businessViewCalendar" : "businessViewCalendar" 
+        "businessViewAnalytics" : "businessViewAnalytics",
+        "businessAddRemoveEmployees" : "businessAddRemoveEmployees"
 
     },
 
@@ -54,118 +55,62 @@ window.Router = Backbone.Router.extend({
         $("#subcontent").empty();
         $('#logout').hide();
 
-       // this.headerView.select('home-menu');
-       // this.footerView.select('home-menu');
+
     },
 
     customerSignup: function () {
-        // Since the signup view never changes, we instantiate it and render it only once
+        routeInitialViewCreator.make(this,"CustomerSignupView","userModel","#content");
 
-            this.customerSignupView = new CustomerSignupView();
-            this.customerSignupView.render();
-
-
-        $("#content").html(this.customerSignupView.el);
-        // this.headerView.select('home-menu');
-        // this.footerView.select('home-menu');
     },
     businessSignup: function () {
-        // Since the signup view never changes, we instantiate it and render it only once
+        routeInitialViewCreator.make(this,"BusinessSignupView","userModel","#content");
 
-            this.businessSignupView = new BusinessSignupView();
-            this.businessSignupView.render();
-
-
-        $("#content").html(this.businessSignupView.el);
-        // this.headerView.select('home-menu');
-        // this.footerView.select('home-menu');
     },
     employeeSignup: function () {
-        // Since the signup view never changes, we instantiate it and render it only once
+        routeInitialViewCreator.make(this,"EmployeeSignupView","userModel","#content");
 
-            this.employeeSignupView = new EmployeeSignupView();
-            this.employeeSignupView.render();
-
-
-        $("#content").html(this.employeeSignupView.el);
-        // this.headerView.select('home-menu');
-        // this.footerView.select('home-menu');
     },
-
-
     customerHome: function () {
-        // Since the signup view never changes, we instantiate it and render it only once
+        routeInitialViewCreator.make(this,"CustomerHomeView","userModel","#content");
 
-            this.customerHomeView = new CustomerHomeView({model:this.userModel});
-            this.customerHomeView.render();
-
-
-        $("#content").html(this.customerHomeView.el);
-        // this.headerView.select('home-menu');
-        // this.footerView.select('home-menu');
     },
     businessHome: function () {
-        // Since the Home view never changes, we instantiate it and render it only once
+        routeInitialViewCreator.make(this,"BusinessHomeView","userModel","#content");
 
-            this.businessHomeView = new BusinessHomeView();
-            this.businessHomeView.render();
-
-
-        $("#content").html(this.businessHomeView.el);
-        // this.headerView.select('home-menu');
-        // this.footerView.select('home-menu');
     },
     employeeHome: function () {
-        // Since the Home view never changes, we instantiate it and render it only once
 
-            this.employeeHomeView = new EmployeeHomeView();
-            this.employeeHomeView.render();
+        routeInitialViewCreator.make(this,"EmployeeHomeView","userModel","#content");
 
-
-        $("#content").html(this.employeeHomeView.el);
-        // this.headerView.select('home-menu');
-        // this.footerView.select('home-menu');
     },
 
     login: function () {
-        // Since the Home view never changes, we instantiate it and render it only once
-
-            this.loginView = new LoginView({model:this.userModel});
-            this.loginView.render();
-
-
-        $("#content").html(this.loginView.el);
+        routeInitialViewCreator.make(this,"LoginView","userModel","#content");
         $('#subcontent').empty();
-        // this.headerView.select('home-menu');
-        // this.footerView.select('home-menu');
+
     },
 
     businessGenerateTokens: function() {
-        // Since the Home view never changes, we instantiate it and render it only once
-
-            this.businessGenerateTokensView = new BusinessGenerateTokensView({model:this.userModel});
-            this.businessGenerateTokensView.render();
-
-
-        $("#subcontent").html(this.businessGenerateTokensView.el);
+        routeInitialViewCreator.make(this,"BusinessGenerateTokensView","userModel","#subcontent");
     },
 
     businessEmployeeSettings: function() {
-        // Since the Home view never changes, we instantiate it and render it only once
 
-            this.businessEmployeeSettingsView = new BusinessEmployeeSettingsView({model:this.userModel});
-            this.businessEmployeeSettingsView.render();
+        routeInitialViewCreator.make(this,"BusinessEmployeeSettingsView","userModel","#subcontent");
 
-
-        $("#subcontent").html(this.businessEmployeeSettingsView.el);
     },
 
     businessServiceSettings: function() {
+
+        routeInitialViewCreator.make(this,"BusinessServiceSettingsView","userModel","#subcontent");
+    },
+
+    businessAddRemoveEmployees: function() {
         // Since the Home view never changes, we instantiate it and render it only once
 
-            this.businessServiceSettingsView = new BusinessServiceSettingsView({model:this.userModel});
-            this.businessServiceSettingsView.render();
-        
+        this.businessServiceSettingsView = new BusinessServiceSettingsView({model:this.userModel});
+        this.businessServiceSettingsView.render();
+
 
         $("#subcontent").html(this.businessServiceSettingsView.el);
     },
@@ -220,6 +165,7 @@ window.Router = Backbone.Router.extend({
 		});
 
     }
+
 
 
 
