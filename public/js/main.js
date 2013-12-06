@@ -28,7 +28,7 @@ window.Router = Backbone.Router.extend({
         "businessGenerateTokens" : "businessGenerateTokens",
         "businessEmployeeSettings" : "businessEmployeeSettings",
         "businessServiceSettings" : "businessServiceSettings",
-		"businessViewCalendar" : "businessViewCalendar" 
+		"businessViewCalendar" : "businessViewCalendar",
         "businessViewAnalytics" : "businessViewAnalytics",
         "businessAddRemoveEmployees" : "businessAddRemoveEmployees"
 
