@@ -32,6 +32,10 @@ window.BusinessViewCalendarView = Backbone.View.extend({
         };
 		var tempEvent = new Object();
 		var d = new Date();
+
+		// this is how you call the datetimepicker. Ideally this
+		// will not be in any final version of our code...
+		prompt( new Date( $('#datetimepicker').val() ));
 		
 		tempEvent.start = new Date(d.getFullYear(), d.getMonth(), d.getDate() );
 		tempEvent.allDay = true;

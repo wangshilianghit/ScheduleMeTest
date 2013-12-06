@@ -163,6 +163,9 @@ window.Router = Backbone.Router.extend({
 				}
 			]
 		});
+		$('#datetimepicker').datetimepicker({
+
+		});
 
     }
 
