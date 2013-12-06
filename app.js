@@ -34,7 +34,7 @@ if ('production' == app.get('env')) {
     dbLocation = 'mongodb://groupawesome:group8@paulo.mongohq.com:10063/app19077050';
 }
 // Set the server to use the following parameters
-app.set('port', process.env.PORT || 80);
+app.set('port', process.env.PORT || 8076);
 app.set('views', __dirname + '/views');
 
 
@@ -150,5 +150,6 @@ app.get('/logout', function(req, res){
 http.createServer(app).listen(app.get('port'), function(){
     console.log('Express server listening on port ' + app.get('port'));
 });
+
 
 

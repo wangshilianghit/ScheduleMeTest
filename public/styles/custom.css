@@ -41,6 +41,11 @@
     width: 600px;
 }
 
+.add-timeslot {
+	width: 90%;
+	margin-bottom: 5px;
+}
+
 .page-canvas .my-sign-in-input {
     width: 250px;
 }
