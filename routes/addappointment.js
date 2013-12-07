@@ -14,7 +14,7 @@ exports.addappointment = function (req, res) {
 	phone = requestASJSON.phone;
 	notes = requestASJSON.notes;
 	time = requestASJSON.time;
-
+/*
     var newUser = new User({email: email, password: password, firstName: firstName, lastName: lastName});
 
     newUser.save(function (err) {
