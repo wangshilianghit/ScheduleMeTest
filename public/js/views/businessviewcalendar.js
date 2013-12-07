@@ -22,25 +22,22 @@ window.BusinessViewCalendarView = Backbone.View.extend({
     addTimeslotClicked:function (event) {
         event.preventDefault(); // Don't let this button submit the form
         $('.alert-error').hide(); // Hide any errors on a new submit
-       var url = '../signup_customer';
         console.log('adding a timeslot ');
-        var formValues = {
-            firstName: $('#inputFirstName').val(),
-            lastName: $('#inputLastName').val(),
-            email: $('#inputEmail').val(),
-            password: $('#inputPassword').val()
-        };
+		//prompt(  $('#customerEmail').val() );
+        var formData = {
+    		firstName: $('#customerFirstName').val(),
+            lastName: $('#customerLastName').val(),
+            email: $('#customerEmail').val(),
+			phone: $('#customerPhone').val(),
+			notes: $('#additionalNotes').val() 
+        }; 
+		prompt(formData.firstName);
 		var tempEvent = new Object();
-		var d = new Date();
 
-		// this is how you call the datetimepicker. Ideally this
-		// will not be in any final version of our code...
-		prompt( new Date( $('#datetimepicker').val() ));
-		
-		tempEvent.start = new Date(d.getFullYear(), d.getMonth(), d.getDate() );
-		tempEvent.allDay = true;
+		tempEvent.start = new Date( $('#datetimepicker').val()  );
+		tempEvent.allDay = false;
+		tempEvent.title = formData.firstName;
 		$('#content').fullCalendar('renderEvent', tempEvent, true);
-		prompt($formValues.lastName);
 /*
         $.ajax({
             url:url,

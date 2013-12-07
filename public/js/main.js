@@ -141,29 +141,36 @@ window.Router = Backbone.Router.extend({
 			defaultEventMinutes: 30,
 			slotEventOverlap: false,
 			select: function(start, end, allDay) {
-							var title = prompt('Event Title:');
-								if (title) {
-												$('#content').fullCalendar('renderEvent',
-															{
-									title: title,
-								start: start,
-						end: end,
-						allDay: allDay
+				var title = prompt('Event Title:');
+				if (title) {
+					$('#content').fullCalendar('renderEvent',
+						{
+							title: title,
+							start: start,
+							end: end,
+							allDay: allDay
 						},
 						true // make the event "stick"
-							);
+					);
 				}
 				$('#content').fullCalendar('unselect');
 			},
 
 			events: [
 				{
-					title: 'this is a title',
-					start: new Date(d.getFullYear(), d.getMonth(), d.getDate() )
+				//	title: 'this is a title',
+				//	start: new Date(d.getFullYear(), d.getMonth(), d.getDate() )
 				}
 			]
 		});
 		$('#datetimepicker').datetimepicker({
+			allowTimes:[
+			  '9:00', '9:30', '10:00', '10:30',  
+			  '11:00', '11:30', '12:00', '12:30',  
+			  '1:00', '1:30', '2:00', '2:30',  
+			  '3:00', '3:30', '4:00', '4:30',  
+			  '5:00', '5:30', '6:00', '6:30',  
+			]
 
 		});
 
