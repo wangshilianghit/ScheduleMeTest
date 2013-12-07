@@ -5,6 +5,7 @@ var routes = require('./routes');
 var signup = require('./routes/signup.js');
 var generatetoken = require('./routes/generatetoken.js');
 var api = require('./routes/api');
+var test = require('./routes/test.js');
 // For HTTP server
 var http = require('http');
 // Parses the path
@@ -110,6 +111,10 @@ app.get('/', routes.index);
 app.get('/api/employees/:id', api.employees);
 app.get('/api/appointments/:id', api.appointments);
 app.get('/api/business/:id', api.business);
+
+//For testing
+app.get('/test.html', test.test);
+
 // valid post routes
 
 // signup route for customer, adds a customer to the database
