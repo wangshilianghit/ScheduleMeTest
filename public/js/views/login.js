@@ -21,8 +21,8 @@ window.LoginView = Backbone.View.extend({
         var url = '../login';
         console.log('Login in... ');
         var formValues = {
-            email: $('#inputEmail').val(),
-            password: $('#inputPassword').val()
+            email: $('#inputEmail').val() /*.concat("business@test.com") */,
+            password: $('#inputPassword').val() /*.concat("12345678") */
         };
 
 

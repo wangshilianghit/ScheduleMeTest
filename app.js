@@ -34,7 +34,7 @@ if ('production' == app.get('env')) {
     dbLocation = 'mongodb://groupawesome:group8@paulo.mongohq.com:10063/app19077050';
 }
 // Set the server to use the following parameters
-app.set('port', process.env.PORT || 8076);
+app.set('port', process.env.PORT || 80);
 app.set('views', __dirname + '/views');
 
 
@@ -124,6 +124,8 @@ app.post('/signup_business', signup.signupbusiness);
 // Generate token for employee
 app.post('/generate_tokens', generatetoken.generatetoken);
 
+// Add an appointment
+app.post('/add_appointment', api.addappointment);
 
 // Authenticate local passport using our local strategy
 app.post('/login', passport.authenticate('local'), function (req, res) {

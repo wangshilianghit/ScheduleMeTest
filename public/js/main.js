@@ -28,9 +28,9 @@ window.Router = Backbone.Router.extend({
         "businessGenerateTokens" : "businessGenerateTokens",
         "businessEmployeeSettings" : "businessEmployeeSettings",
         "businessServiceSettings" : "businessServiceSettings",
-		"businessViewCalendar" : "businessViewCalendar",
         "businessViewAnalytics" : "businessViewAnalytics",
-        "businessAddRemoveEmployees" : "businessAddRemoveEmployees"
+        "businessAddRemoveEmployees" : "businessAddRemoveEmployees",
+        "businessViewCalendar" : "businessViewCalendar"
 
     },
 
@@ -106,75 +106,73 @@ window.Router = Backbone.Router.extend({
     },
 
     businessAddRemoveEmployees: function() {
-        // Since the Home view never changes, we instantiate it and render it only once
 
-        this.businessServiceSettingsView = new BusinessServiceSettingsView({model:this.userModel});
-        this.businessServiceSettingsView.render();
+         routeInitialViewCreator.make(this,"BusinessAddRemoveEmployeesView", "userModel", "#subcontent");
 
-
-        $("#subcontent").html(this.businessServiceSettingsView.el);
     },
-
     businessViewCalendar: function() {
-        // Since the Home view never changes, we instantiate it and render it only once
 
-            this.businessViewCalendarView = new BusinessViewCalendarView();
-            this.businessViewCalendarView.render();
-        
-		var d = new Date();
+        this.businessViewCalendarView = new BusinessViewCalendarView();
+        this.businessViewCalendarView.render();
+
+
 
         $("#subcontent").html(this.businessViewCalendarView.el);
-		$('#content').fullCalendar({
-        	header: {
-		    	left: 'prev,next today',
-				center: 'title',
-				right: 'agendaWeek,agendaDay',
-				ignoreTimezone: false
-			},
-			selectable: true,
-			selectHelper: true,
-			editable: true,
-			defaultView: 'agendaWeek',
-			slotMinutes: 15,
-			firstHour: 9,
-			lastHour: 18,
-			defaultEventMinutes: 30,
-			slotEventOverlap: false,
-			select: function(start, end, allDay) {
-							var title = prompt('Event Title:');
-								if (title) {
-												$('#content').fullCalendar('renderEvent',
-															{
-									title: title,
-								start: start,
-						end: end,
-						allDay: allDay
-						},
-						true // make the event "stick"
-							);
-				}
-				$('#content').fullCalendar('unselect');
-			},
+        $('#content').fullCalendar({
+            header: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'agendaWeek,agendaDay',
+                ignoreTimezone: false
+            },
+            selectable: true,
+            selectHelper: true,
+            editable: true,
+            defaultView: 'agendaWeek',
+            slotMinutes: 15,
+            firstHour: 9,
+            lastHour: 18,
+            defaultEventMinutes: 30,
+            slotEventOverlap: false,
+            select: function(start, end, allDay) {
+                var title = prompt('Event Title:');
+                if (title) {
+                    $('#content').fullCalendar('renderEvent',
+                        {
+                            title: title,
+                            start: start,
+                            end: end,
+                            allDay: allDay
+                        },
+                        true // make the event "stick"
+                    );
+                }
+                $('#content').fullCalendar('unselect');
+            },
 
-			events: [
-				{
-					title: 'this is a title',
-					start: new Date(d.getFullYear(), d.getMonth(), d.getDate() )
-				}
-			]
-		});
-		$('#datetimepicker').datetimepicker({
+            events: [
+                {
+                    //	title: 'this is a title',
+                    //	start: new Date(d.getFullYear(), d.getMonth(), d.getDate() )
+                }
+            ]
+        });
+        $('#datetimepicker').datetimepicker({
+            allowTimes:[
+                '9:00', '9:30', '10:00', '10:30',
+                '11:00', '11:30', '12:00', '12:30',
+                '1:00', '1:30', '2:00', '2:30',
+                '3:00', '3:30', '4:00', '4:30',
+                '5:00', '5:30', '6:00', '6:30'
+            ]
 
-		});
+        });
 
     }
 
-
-
-
 });
 
-templateLoader.load(["HomeView",  "HeaderView", "FooterView", "CustomerSignupView","BusinessSignupView","EmployeeSignupView", "CustomerHomeView","BusinessHomeView","EmployeeHomeView", "LoginView","BusinessGenerateTokensView","BusinessEmployeeSettingsView", "BusinessServiceSettingsView", "BusinessViewCalendarView"],
+templateLoader.load(["HomeView",  "HeaderView", "FooterView", "CustomerSignupView","BusinessSignupView","EmployeeSignupView", "CustomerHomeView","BusinessHomeView","EmployeeHomeView", "LoginView","BusinessGenerateTokensView","BusinessEmployeeSettingsView", "BusinessServiceSettingsView", "BusinessAddRemoveEmployeesView", "BusinessViewCalendarView"],
     function () {
         app = new Router();
         Backbone.history.start();
