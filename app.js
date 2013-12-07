@@ -5,7 +5,6 @@ var routes = require('./routes');
 var signup = require('./routes/signup.js');
 var generatetoken = require('./routes/generatetoken.js');
 var api = require('./routes/api');
-var addappointment = require('./routes/addappointment.js');
 // For HTTP server
 var http = require('http');
 // Parses the path
@@ -35,7 +34,7 @@ if ('production' == app.get('env')) {
     dbLocation = 'mongodb://groupawesome:group8@paulo.mongohq.com:10063/app19077050';
 }
 // Set the server to use the following parameters
-app.set('port', process.env.PORT || 8076);
+app.set('port', process.env.PORT || 80);
 app.set('views', __dirname + '/views');
 
 
@@ -126,7 +125,7 @@ app.post('/signup_business', signup.signupbusiness);
 app.post('/generate_tokens', generatetoken.generatetoken);
 
 // Add an appointment
-app.post('/add_appointment', addappointment.addappointment);
+app.post('/add_appointment', api.addappointment);
 
 // Authenticate local passport using our local strategy
 app.post('/login', passport.authenticate('local'), function (req, res) {

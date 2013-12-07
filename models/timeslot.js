@@ -14,7 +14,7 @@ var TimeslotSchema = new Schema(
 		endTime: { type: Date },
 		description: { type:String, default: '' },
 		employeeID: { type:String, default: '' }, 
-		customer: { type:String, default: '' },
+		customer: { type:String, default: '' }
 
     }
 
