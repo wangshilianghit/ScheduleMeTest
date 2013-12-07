@@ -1,8 +1,0 @@
-<td>
-    <a href="#note/<%= id %>/view"><%= firstname %></a>
-</td>
-<td><%= lastname %></td>
-<td><% services %>...</td>
-<td>
-    <a href="#" class="delete btn btn-danger btn-small">delete</a>
-</td>
