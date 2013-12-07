@@ -5,6 +5,7 @@ var routes = require('./routes');
 var signup = require('./routes/signup.js');
 var generatetoken = require('./routes/generatetoken.js');
 var api = require('./routes/api');
+var addappointment = require('./routes/addappointment.js');
 // For HTTP server
 var http = require('http');
 // Parses the path
@@ -124,6 +125,8 @@ app.post('/signup_business', signup.signupbusiness);
 // Generate token for employee
 app.post('/generate_tokens', generatetoken.generatetoken);
 
+// Add an appointment
+app.post('/add_appointment', addappointment.addappointment);
 
 // Authenticate local passport using our local strategy
 app.post('/login', passport.authenticate('local'), function (req, res) {
